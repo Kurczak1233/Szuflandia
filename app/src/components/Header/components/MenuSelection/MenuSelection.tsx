@@ -11,7 +11,7 @@ interface IMenuSelection {
 
 const MenuSelection = ({ setLanguageToChosenOption }: IMenuSelection) => {
   const testFunc = () => {
-    console.log("");
+    return;
   };
 
   const navigateToFooter = () => {
