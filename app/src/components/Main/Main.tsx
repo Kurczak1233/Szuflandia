@@ -1,5 +1,13 @@
+import InitialScreen from "./components/InitialScreen/InitialScreen";
+import PresentationScreen from "./components/PresentationScreen/PresentationScreen";
+
 const Main = () => {
-  return <div>Hello World! I am a main!</div>;
+  return (
+    <main>
+      <InitialScreen />
+      <PresentationScreen />
+    </main>
+  );
 };
 
 export default Main;

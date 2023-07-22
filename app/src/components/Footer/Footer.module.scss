@@ -1,0 +1,32 @@
+@import "commonStyles/commonStyles.scss";
+.footerWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-top: 1px solid rgba(0, 0, 0, 10%);
+  height: 350px;
+  width: 100%;
+}
+.contactUs {
+    font-size: 32px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: $black-text;
+    margin-bottom: 16px;
+}
+.description {
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: $black-text;
+    margin-bottom: 16px;
+}
+.contacts {
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: $black-text;
+    margin-bottom: 16px;
+}

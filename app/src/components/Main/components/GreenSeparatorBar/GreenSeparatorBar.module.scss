@@ -1,0 +1,8 @@
+@import "commonStyles/commonStyles.scss";
+.greenSeparatorBar {
+  background-color: $green-accent;
+  width: 3px;
+  height: 20px;
+  border-radius: 16px;
+  margin: 0 32px;
+}

@@ -1,0 +1,19 @@
+.vectorWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  left: 0;
+  top: calc(100% - 104px);
+  min-width: 100%;
+}
+.whiteVectorSmallPart {
+  height: 23px;
+  width: 20%;
+  background-color: white;
+}
+.whiteVectorBigPart {
+  height: 104px;
+  width: 80%;
+  background-color: white;
+}

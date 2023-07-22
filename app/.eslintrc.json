@@ -21,7 +21,7 @@
   "rules": {
     "no-console": "warn",
     "prettier/prettier": [
-      "warn",
+      "off",
       {
         "endOfLine": "auto"
       }
