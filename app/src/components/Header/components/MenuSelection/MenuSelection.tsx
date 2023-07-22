@@ -11,7 +11,11 @@ interface IMenuSelection {
 
 const MenuSelection = ({ setLanguageToChosenOption }: IMenuSelection) => {
   const testFunc = () => {
-    console.log("Test");
+    console.log("");
+  };
+
+  const navigateToFooter = () => {
+    window.location.href = "#footer";
   };
 
   const currentLanguageSheet = React.useContext(LanguageContext);
@@ -29,7 +33,7 @@ const MenuSelection = ({ setLanguageToChosenOption }: IMenuSelection) => {
         />
         <MenuItem
           name={currentLanguageSheet.header.mainText3}
-          onClick={testFunc}
+          onClick={navigateToFooter}
           isLastItem
         />
       </div>

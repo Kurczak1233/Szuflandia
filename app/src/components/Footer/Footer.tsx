@@ -6,7 +6,7 @@ const Footer = () => {
   const currentLanguageSheet = React.useContext(LanguageContext);
 
   return (
-    <footer className={styles.footerWrapper}>
+    <footer className={styles.footerWrapper} id="footer">
       <div className={styles.contactUs}>
         {currentLanguageSheet.footer.contactUs}
       </div>
