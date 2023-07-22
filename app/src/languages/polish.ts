@@ -22,4 +22,11 @@ export const PolishLanguage: ICommonLanugageInterface = {
     description:
       "Nasze meble wyróżniają się tym, że każdy element jest indywidualnie inspirowany, wykonany z niezwykłą starannością, zapewniając charakterystyczne i ekskluzywne kreacje.",
   },
+  footer: {
+    contactUs: "Skontaktuj się z nami",
+    contactUsDescription: "Udekoruj Twoje mieszkanie naszymi unikalnymi meblami!",
+    email: "Email",
+    phonePolish: "Polski",
+    phoneEnglish: "Angielski"
+  }
 }

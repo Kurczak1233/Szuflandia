@@ -9,8 +9,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
   mainScreen: {
     topText: "Welcome to",
     szuflandiaTitle: "Szuflandia",
-    siteDescription:
-      "A place where exceptional craftsman create exquisite handmade furniture with unrivaled precision and attention to detail ",
+    siteDescription: "A place where exceptional craftsman create exquisite handmade furniture with unrivaled precision and attention to detail ",
     attributes: {
       madeByHand: "Handmade",
       howManyProducts: "+200 products",
@@ -20,7 +19,13 @@ export const EnglishLanguage: ICommonLanugageInterface = {
   },
   presentationScreen: {
     uniqueFurniture: "Unique furniture",
-    description:
-      "Our furniture is distinguished by the fact that each piece is individually inspired, made with incredible care, providing distinctive and exclusive creations.",
+    description: "Our furniture is distinguished by the fact that each piece is individually inspired, made with incredible care, providing distinctive and exclusive creations.",
   },
+  footer: {
+    contactUs: "Contact us",
+    contactUsDescription: "Decorate your place with our uniques furniture!",
+    email: "Email",
+    phonePolish: "Polish",
+    phoneEnglish: "English"
+  }
 };
