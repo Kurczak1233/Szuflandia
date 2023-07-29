@@ -46,3 +46,26 @@
 .thirdImage {
   max-width: 30%;
 }
+.leftBranchWrapper {
+  display: flex;
+  align-items: right;
+  justify-content: end;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: -80px;
+}
+
+.rightBranchWrapper {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  bottom: -280px;
+}
+
+.main {
+  position: relative;
+  margin-bottom: 250px;
+}
