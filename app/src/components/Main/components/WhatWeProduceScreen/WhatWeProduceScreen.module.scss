@@ -1,0 +1,15 @@
+@import "commonStyles/commonStyles.scss";
+.title {
+  font-size: 32px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: $gray-text;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.furnitureGreen {
+  color: $green-accent;
+}

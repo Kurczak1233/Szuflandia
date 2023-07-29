@@ -13,15 +13,19 @@
   font-size: 32px;
   font-family: "Open Sans";
   font-weight: 700;
-  color: $black-text;
+  color: $gray-text;
   margin-bottom: 16px;
+}
+.greenText {
+  color: $green-accent;
 }
 .description {
   font-size: 20px;
   font-family: "Open Sans";
   color: $black-text;
   max-width: 60%;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
+  color: $gray-text;
 }
 .imagesWrapper {
   display: flex;
@@ -32,7 +36,7 @@
 .firstImage {
   margin-bottom: 80px;
   max-width: 30%;
-}   
+}
 .secondImage {
   margin-bottom: 40px;
   margin-left: 3%;

@@ -3,7 +3,7 @@ import styles from "./WhiteVector.module.scss";
 import { useEffect, useState } from "react";
 
 const WhiteVector = () => {
-  const [bigComponentWidth, setBigComponentWidth] = useState(80);
+  const [bigComponentWidth, setBigComponentWidth] = useState(0);
 
   const logit = () => {
     if (window.scrollY < 800) {

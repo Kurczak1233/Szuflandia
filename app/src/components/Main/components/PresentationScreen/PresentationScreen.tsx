@@ -11,7 +11,13 @@ const PresentationScreen = () => {
     <main className={styles.presentetionScreen}>
       <div className={styles.uniqueFurnitureComponent}>
         <div className={styles.uniqueFurniture}>
-          {currentLanguageSheet.presentationScreen.uniqueFurniture}
+          <span className={styles.greenText}>
+            {currentLanguageSheet.presentationScreen.uniqueFurniture}
+          </span>
+          &nbsp;
+          <span>
+            {currentLanguageSheet.presentationScreen.uniqueFurnitureSecondPart}
+          </span>
         </div>
         <div className={styles.description}>
           {currentLanguageSheet.presentationScreen.description}

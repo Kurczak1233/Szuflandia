@@ -2,6 +2,7 @@ export interface ICommonLanugageInterface {
   header: ICommonLanugageInterfaceHeader;
   mainScreen: ICommonLanguageMain;
   presentationScreen: ICommonLanguagePresentation;
+  whatWeProduceScreen: ICommonLanguageProduction;
   footer: ICommonLanguageFooter;
 }
 
@@ -27,6 +28,7 @@ interface ICommonLanguageMainAttributes {
 
 interface ICommonLanguagePresentation {
   uniqueFurniture: string;
+  uniqueFurnitureSecondPart: string;
   description: string;
 }
 
@@ -36,4 +38,19 @@ interface ICommonLanguageFooter {
   email: string;
   phonePolish: string;
   phoneEnglish: string;
+}
+
+interface ICommonLanguageProduction {
+  cabinetsItem: ICommonLanguageProductionCategory;
+  tablesItem: ICommonLanguageProductionCategory;
+  organizersItem: ICommonLanguageProductionCategory;
+  chestsItem: ICommonLanguageProductionCategory;
+  furnitureGreen: string;
+  weProduceText: string;
+}
+
+interface ICommonLanguageProductionCategory {
+  categoryTitle: string;
+  categoryDescription: string;
+  categoryTraitsButtons: string[];
 }
