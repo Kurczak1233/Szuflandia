@@ -1,4 +1,4 @@
-import styles from "./Header.module.scss";
+import "./Header.scss";
 import Logo from "../../images/Logo.svg";
 import MenuSelection from "./components/MenuSelection/MenuSelection";
 import { LanguageEnum } from "../../App";
@@ -9,7 +9,7 @@ interface IHeader {
 
 const Header = ({ setLanguageToChosenOption }: IHeader) => {
   return (
-    <div className={styles.header}>
+    <div className="topHeaderItem">
       <img src={Logo} alt="Szuflandia logo"></img>
       <MenuSelection setLanguageToChosenOption={setLanguageToChosenOption} />
     </div>

@@ -23,12 +23,12 @@ const WhiteVector = () => {
     <div className={styles.vectorWrapper}>
       <div
         className={styles.whiteVectorBigPart}
-        style={{ width: `${100 - bigComponentWidth - 10}%` }}
+        style={{ width: `calc(${100 - bigComponentWidth - 10}% - 184px)` }}
       ></div>
-      <img src={VectorMiddlePart} alt="Movable hidding vector"></img>
+      <img src={VectorMiddlePart} alt="Movable hidding vector" width={184} height={104}></img>
       <div
         className={styles.whiteVectorSmallPart}
-        style={{ width: `${bigComponentWidth + 10}%` }}
+        style={{ width: `calc(${bigComponentWidth + 10}%)` }}
       ></div>
     </div>
   );

@@ -1,5 +1,5 @@
 import mainBackground from "images/MainBackground.png";
-import styles from "./InitialScreen.module.scss";
+import "./InitialScreen.scss";
 import SzuflandiaColorLogo from "images/SzuflandiaColorLogo.svg";
 import { LanguageContext } from "App";
 import React from "react";
@@ -10,18 +10,18 @@ const InitialScreen = () => {
   const currentLanguageSheet = React.useContext(LanguageContext);
   return (
     <>
-      <div className={styles.mainLayer}>
-        <div className={styles.mainScreenContainer}>
-          <div className={styles.topText}>
+      <div className="initialScreenMainLayer">
+        <div className="initialScreenMainScreenContainer">
+          <div className="initialScreenTopText">
             {currentLanguageSheet.mainScreen.topText}
           </div>
-          <div className={styles.mainTitle}>
+          <div className="initialScreenMainTitle">
             {currentLanguageSheet.mainScreen.szuflandiaTitle}
           </div>
-          <div className={styles.description}>
+          <div className="initialScreenDescription">
             {currentLanguageSheet.mainScreen.siteDescription}
           </div>
-          <div className={styles.attriubtes}>
+          <div className="initialScreenAttriubtes">
             <div>{currentLanguageSheet.mainScreen.attributes.madeByHand}</div>
             <GreenSeparatorBar />
             <div>
@@ -37,6 +37,7 @@ const InitialScreen = () => {
           <img
             src={SzuflandiaColorLogo}
             alt="Szuflandia logo item"
+            className="initialScreenSzuflandiaLogo"
             width={151}
             height={164}
           ></img>
@@ -44,7 +45,7 @@ const InitialScreen = () => {
         </div>
       </div>
       <img
-        className={styles.image}
+        className="initialScreenImage"
         src={mainBackground}
         alt="Szuflandia main background"
         height={1080}

@@ -30,6 +30,7 @@ interface ICommonLanguagePresentation {
   uniqueFurniture: string;
   uniqueFurnitureSecondPart: string;
   description: string;
+  descriptionSecondPart: string;
 }
 
 interface ICommonLanguageFooter {

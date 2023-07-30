@@ -21,8 +21,8 @@ export const EnglishLanguage: ICommonLanugageInterface = {
   presentationScreen: {
     uniqueFurniture: "Uniquely",
     uniqueFurnitureSecondPart: "designed",
-    description:
-      "Our furniture is distinguished by the fact that each piece is individually inspired, made with incredible care, providing distinctive and exclusive creations. What's more, handmade creation and the use of a variety of materials ensure that each piece of furniture is unique",
+    description: "Our furniture is distinguished by the fact that each piece is individually inspired, made with incredible care, providing distinctive and exclusive creations.",
+    descriptionSecondPart: "Handmade creation and the use of a variety of materials ensure that each piece of furniture is unique"
   },
   footer: {
     contactUs: "Contact us",

@@ -54,6 +54,9 @@ const PresentationScreen = () => {
               alt="Third unique szuflandia furniture presentation"
             ></img>
           </div>
+          <div className={styles.descriptionSecondPart}>
+            {currentLanguageSheet.presentationScreen.descriptionSecondPart}
+          </div>
         </div>
       </section>
       <div className={styles.rightBranchWrapper}>

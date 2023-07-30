@@ -20,9 +20,9 @@ export const PolishLanguage: ICommonLanugageInterface = {
   },
   presentationScreen: {
     uniqueFurniture: "Unikalnalnie",
-    description:
-      "Nasze meble wyróżniają się tym, że każdy element jest indywidualnie inspirowany, wykonany z niezwykłą starannością, zapewniając charakterystyczne i ekskluzywne kreacje. Co więcej, ręczne tworzenie oraz zastosowanie różnorodnych materiałów gwarantują, że każdy mebel jest niepowtarzalny.",
+    description: "Nasze meble wyróżniają się tym, że każdy element jest indywidualnie inspirowany, wykonany z niezwykłą starannością, zapewniając charakterystyczne i ekskluzywne kreacje.",
     uniqueFurnitureSecondPart: "zaprojektowane",
+    descriptionSecondPart: "Ręczne tworzenie oraz zastosowanie różnorodnych materiałów gwarantują, że każdy mebel jest niepowtarzalny."
   },
   footer: {
     contactUs: "Skontaktuj się z nami",
