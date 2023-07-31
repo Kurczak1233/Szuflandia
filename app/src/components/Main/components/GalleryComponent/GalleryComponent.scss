@@ -1,0 +1,79 @@
+@import "commonStyles/commonStyles.scss";
+.galleryComponentContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 139px;
+  width: 100%;
+  overflow: hidden;
+}
+.galleryComponentLeftSide {
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+  overflow: hidden;
+  position: relative;
+  left: -212px;
+}
+.galleryComponentTitle {
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: $green-accent;
+  min-width: 120px;
+  text-align: center;
+}
+.galleryComponentIcon {
+  padding: 0 8px;
+  max-height: 100px;
+}
+.galleryDescriptionItem {
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: $gray-text;
+  margin-left: 16px;
+}
+.galleryDescriptionGreenPlus {
+  color: $green-accent;
+}
+.galleryComponentButtonWrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.galleryComponentSmallButton {
+  background-color: $green-accent;
+  border-radius: 25px;
+  color: $bright-white-text;
+  width: 70px;
+  padding: 4px 12px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
+.galleryComponentBreakingLine {
+  border: 1px solid $gray-text;
+  opacity: 0.08;
+  margin: 0;
+}
+.galleryComponentBackgroundImage {
+  animation-fill-mode: both;
+  animation: slideInLeft;
+  animation-duration: 0.5s;
+  margin-right: 16px;
+}
+.galleryComponentOuterWrapper {
+  display: flex;
+}
+.galleryComponentContainer:hover {
+  cursor: pointer;
+  background-color: $light-green;
+  .galleryComponentLeftSide {
+    left: 0px;
+    transition: all 0.5s;
+  }
+}

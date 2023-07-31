@@ -1,0 +1,45 @@
+@import "commonStyles/commonStyles.scss";
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+.galleryTitle {
+  font-size: 32px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: $green-accent;
+}
+.centralText {
+  margin: 24px 0;
+}
+.descriptionTop {
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  color: $gray-text;
+}
+.descriptionTopGreen {
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  color: $green-accent;
+}
+.descriptionBottom {
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  color: $gray-text;
+}
+.galleryContainer {
+  width: 100%;
+  margin-top: 64px;
+}
+.galleryWrapper {
+  background-color: $card-background;
+  border-radius: 25px;
+  margin: 0 200px;
+}

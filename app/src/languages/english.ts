@@ -21,8 +21,10 @@ export const EnglishLanguage: ICommonLanugageInterface = {
   presentationScreen: {
     uniqueFurniture: "Uniquely",
     uniqueFurnitureSecondPart: "designed",
-    description: "Our furniture is distinguished by the fact that each piece is individually inspired, made with incredible care, providing distinctive and exclusive creations.",
-    descriptionSecondPart: "Handmade creation and the use of a variety of materials ensure that each piece of furniture is unique"
+    description:
+      "Our furniture is distinguished by the fact that each piece is individually inspired, made with incredible care, providing distinctive and exclusive creations.",
+    descriptionSecondPart:
+      "Handmade creation and the use of a variety of materials ensure that each piece of furniture is unique",
   },
   footer: {
     contactUs: "Contact us",
@@ -58,5 +60,50 @@ export const EnglishLanguage: ICommonLanugageInterface = {
     },
     furnitureGreen: "Furniture",
     weProduceText: "we produce",
+  },
+  galleryScreen: {
+    galleryTitle: "Gallery",
+    descriptionBlackPart: "Most of the items shown below are currently",
+    availableGreenPart: "available.",
+    furtherDescriptionFirstSentence:
+      "To order one of the items below, or a similar one - contact us.",
+    furtherDescriptionSecondSentence:
+      "We are open to your creativity and ideas.",
+    galleryItems: [
+      {
+        title: "Cabinets",
+        description: [
+          "They usually consist of up to several drawers.",
+          "Allowing you to store larger items inside or on top.",
+          "There are variants with hangers inside.",
+        ],
+      },
+      {
+        title: "Tables",
+        description: [
+          "They perform decorative and functional roles.",
+          "Mostly small in size.",
+          "Some variants allow you to store items inside.",
+          "There are variants with built-in checkerboard on the top.",
+        ],
+      },
+      {
+        title: "Organizers",
+        description: [
+          "They usually consist of a large number of small drawers.",
+          "Allowing you to store small items inside or on top.",
+          "There are sometimes variants with small hangers inside.",
+        ],
+      },
+      {
+        title: "Chests",
+        description: [
+          "They are mostly decorative wooden containers.",
+          "Some of them have an organizer structure in them.",
+          "There are unique ones with extraordinary shapes.",
+          "Mostly small in size.",
+        ],
+      },
+    ],
   },
 };

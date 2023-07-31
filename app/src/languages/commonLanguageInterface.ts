@@ -3,6 +3,7 @@ export interface ICommonLanugageInterface {
   mainScreen: ICommonLanguageMain;
   presentationScreen: ICommonLanguagePresentation;
   whatWeProduceScreen: ICommonLanguageProduction;
+  galleryScreen: ICommonLanguageGallery;
   footer: ICommonLanguageFooter;
 }
 
@@ -54,4 +55,18 @@ interface ICommonLanguageProductionCategory {
   categoryTitle: string;
   categoryDescription: string;
   categoryTraitsButtons: string[];
+}
+
+interface ICommonLanguageGallery {
+  galleryTitle: string;
+  descriptionBlackPart: string;
+  availableGreenPart: string;
+  furtherDescriptionFirstSentence: string;
+  furtherDescriptionSecondSentence: string;
+  galleryItems: ICommonLanguageGalleryItem[];
+}
+
+interface ICommonLanguageGalleryItem {
+  title: string;
+  description: string[];
 }

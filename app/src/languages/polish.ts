@@ -20,14 +20,15 @@ export const PolishLanguage: ICommonLanugageInterface = {
   },
   presentationScreen: {
     uniqueFurniture: "Unikalnalnie",
-    description: "Nasze meble wyróżniają się tym, że każdy element jest indywidualnie inspirowany, wykonany z niezwykłą starannością, zapewniając charakterystyczne i ekskluzywne kreacje.",
+    description:
+      "Nasze meble wyróżniają się tym, że każdy element jest indywidualnie inspirowany, wykonany z niezwykłą starannością, zapewniając charakterystyczne i ekskluzywne kreacje.",
     uniqueFurnitureSecondPart: "zaprojektowane",
-    descriptionSecondPart: "Ręczne tworzenie oraz zastosowanie różnorodnych materiałów gwarantują, że każdy mebel jest niepowtarzalny."
+    descriptionSecondPart:
+      "Ręczne tworzenie oraz zastosowanie różnorodnych materiałów gwarantują, że każdy mebel jest niepowtarzalny.",
   },
   footer: {
     contactUs: "Skontaktuj się z nami",
-    contactUsDescription:
-      "Ożyw swoje wnętrze unikalnymi meblami!",
+    contactUsDescription: "Ożyw swoje wnętrze unikalnymi meblami!",
     email: "Email",
     phonePolish: "Polski",
     phoneEnglish: "Angielski",
@@ -59,5 +60,50 @@ export const PolishLanguage: ICommonLanugageInterface = {
     },
     furnitureGreen: "Meble",
     weProduceText: "jakie wytwarzamy",
+  },
+  galleryScreen: {
+    galleryTitle: "Galeria",
+    descriptionBlackPart: "Większość z mebli pokazanych poniżej jest aktualnie",
+    availableGreenPart: "dostępna.",
+    furtherDescriptionFirstSentence:
+      "Aby zamówić jeden z przemiotów poniżej, albo podobny - skontaktuj się z nami.",
+    furtherDescriptionSecondSentence:
+      "Jesteśmy otwarci na Twoją kreatywność i pomysły.",
+    galleryItems: [
+      {
+        title: "Szafki",
+        description: [
+          "Składają się przeważnie z maksymalnie kilku szuflad.",
+          "Pozwalające przechowywać w środku lub na górze większe przedmioty.",
+          "Istnieją warianty z wieszakami w środku.",
+        ],
+      },
+      {
+        title: "Stoliki",
+        description: [
+          "Pełnią role dekoracyjno-funkcyjne.",
+          "Przeważnie niewielkich rozmiarów.",
+          "Niektóre warianty pozwalają przechowywać przedmioty w środku.",
+          "Istnieją warianty z wbudowaną szachownicą na blacie.",
+        ],
+      },
+      {
+        title: "Organizery",
+        description: [
+          "Składają się przeważnie z dużej ilości małych szuflad.",
+          "Pozwalające przechowywać w środku lub na górze niewielkie przedmioty.",
+          "Zdarzają się warianty z niewielkimi wieszakami w środku.",
+        ],
+      },
+      {
+        title: "Skrzynie",
+        description: [
+          "Są przeważnie ozdobnymi drewnianymi pojemnikami.",
+          "Część z nich posiada w sobie strukturę organizera.",
+          "Istnieją unikaty o wyjątkowych kształtach.",
+          "Przeważnie niewielkich rozmiarów.",
+        ],
+      },
+    ],
   },
 };
