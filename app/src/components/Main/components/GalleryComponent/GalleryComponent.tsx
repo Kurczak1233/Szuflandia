@@ -34,6 +34,12 @@ const GalleryComponent = ({
     <>
       <div
         className="galleryComponentContainer"
+        style={{
+          borderTopLeftRadius: topCorner ? "25px" : 0,
+          borderTopRightRadius: topCorner ? "25px" : 0,
+          borderBottomRightRadius: bottomCorner ? "25px" : 0,
+          borderBottomLeftRadius: bottomCorner ? "25px" : 0,
+        }}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
