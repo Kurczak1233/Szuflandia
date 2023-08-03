@@ -6,6 +6,7 @@ import React from "react";
 import { PolishLanguage } from "./languages/polish";
 import { EnglishLanguage } from "./languages/english";
 import { ICommonLanugageInterface } from "languages/commonLanguageInterface";
+import "./App.scss";
 export enum LanguageEnum {
   Polish,
   English,
@@ -44,6 +45,21 @@ const App = () => {
         <Header setLanguageToChosenOption={setLanguageToChosenOption} />
         <Main />
         <Footer />
+      </div>
+      <div
+        className="MobileVersion"
+        style={{
+          width: "100vw",
+          height: "100vh",
+          fontSize: "30px",
+          color: "black",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        Mobile version is under production... / Wersja mobilna jest w trakcie
+        produkcji
       </div>
     </LanguageContext.Provider>
   );

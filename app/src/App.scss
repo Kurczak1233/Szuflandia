@@ -1,6 +1,22 @@
 .App {
   text-align: center;
 }
+@media (max-width: 1400px) {
+  .App {
+    display: none;
+  }
+  .MobileVersion {
+    display: block;
+  }
+}
+@media (min-width: 1400px) {
+  .App {
+    display: block;
+  }
+  .MobileVersion {
+    display: none;
+  }
+}
 
 .App-logo {
   height: 40vmin;
@@ -36,4 +52,3 @@
     transform: rotate(360deg);
   }
 }
-
