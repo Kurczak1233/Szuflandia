@@ -46,7 +46,7 @@ const App = () => {
         <Main />
         <Footer />
       </div>
-      <div
+      {/* <div
         className="MobileVersion"
         style={{
           width: "100vw",
@@ -60,7 +60,7 @@ const App = () => {
       >
         Mobile version is under production... / Wersja mobilna jest w trakcie
         produkcji
-      </div>
+      </div> */}
     </LanguageContext.Provider>
   );
 };

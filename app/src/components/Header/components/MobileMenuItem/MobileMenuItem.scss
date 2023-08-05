@@ -1,0 +1,25 @@
+@import "commonStyles/commonStyles.scss";
+@mixin basicItemStyle {
+  border: 10px solid $intensive-wood-brown;
+  color: $bright-white-text;
+  font-size: 20px;
+  margin-bottom: 2px;
+  background-color: $intensive-wood-brown-fill;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4px 0;
+  position: absolute;
+  max-height: 40px;
+  transition: all 1s;
+  transition-timing-function: ease;
+}
+.headerMobileMenuItem {
+  @include basicItemStyle;
+  right: -300px;
+}
+.headerMobileMenuItemAcitve {
+  @include basicItemStyle;
+  right: 0px;
+}

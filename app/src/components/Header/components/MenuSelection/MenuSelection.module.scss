@@ -1,3 +1,4 @@
+@import "commonStyles/commonStyles.scss";
 .headerMenu {
   display: flex;
   flex-direction: column;
@@ -6,4 +7,60 @@
 .topHeaderMenu {
   display: flex;
   margin-bottom: 12px;
+}
+
+//Responsiveness
+@media (max-width: $xl) {
+  .topHeaderBurgerMenu {
+    display: block;
+    cursor: pointer;
+  }
+  .topHeaderMenu {
+    display: none;
+  }
+  .menuFlags {
+    display: none;
+  }
+}
+@media (min-width: $xl) {
+  .topHeaderBurgerMenu {
+    display: none;
+  }
+  .topHeaderMenu {
+    display: flex;
+  }
+  .menuFlags {
+    display: block;
+  }
+}
+@mixin mobileMenu {
+  position: absolute;
+  right: 0px;
+  margin-top: 30px;
+  // width: 240px;
+  // height: 265px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.mobileMenu {
+  @include mobileMenu;
+  right: 0px;
+}
+.mobileMenuActive {
+  @include mobileMenu;
+  right: 0px;
+  transition-delay: 2s;
+}
+.languagesMobileDrawers {
+  position: absolute;
+  transition-delay: 0.4s !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.customLanguagesDrawers {
+  border: 10px solid $intensive-wood-brown;
+  background-color: $intensive-wood-brown-fill;
+  width: 99px;
 }

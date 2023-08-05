@@ -10,7 +10,7 @@ const InitialScreen = () => {
   const currentLanguageSheet = React.useContext(LanguageContext);
   return (
     <>
-      <div className="initialScreenMainLayer">
+      <div className="initialScreenMainLayer" id="mainScreen">
         <div className="initialScreenMainScreenContainer">
           <div className="initialScreenTopText">
             {currentLanguageSheet.mainScreen.topText}
