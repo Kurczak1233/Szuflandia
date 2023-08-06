@@ -3,22 +3,26 @@ import { LanguageContext } from "App";
 import ProductsCategoryComponent from "../ProductsCategoryComponent/ProductsCategoryComponent";
 import CabinetLogo from "images/CabinetLogo.svg";
 import CabinetVector from "images/CabinetVector.svg";
+import MobileCabinetsImage from "images/MobileCabinetsImage.png";
 import CabinetImage from "images/CabinetCategoryFurniture.png";
 import TablesLogo from "images/TablesLogo.svg";
 import TablesVector from "images/TablesVector.svg";
 import TablesImage from "images/TablesImage.png";
+import MobileTablesImage from "images/MobileTablesImage.png";
 import OrganizersLogo from "images/OrganizersIcon.svg";
 import OrganizersVector from "images/OrganizersVector.svg";
 import OrganizersImage from "images/OrganizersImage.png";
+import MobileOrganizersImage from "images/MobileOrganizersImage.png";
 import ChestsLogo from "images/ChestsLogo.svg";
 import ChestsVector from "images/ChestsVector.svg";
 import ChestsImage from "images/ChestsImage.png";
-
+import MobileChestsImage from "images/MobileChestsImage.png";
 import React from "react";
+
 const WhatWeProduceScreen = () => {
   const currentLanguageSheet = React.useContext(LanguageContext);
   return (
-    <div>
+    <div className={styles.mainContentWrapper}>
       <div className={styles.title}>
         <span className={styles.furnitureGreen}>
           {currentLanguageSheet.whatWeProduceScreen.furnitureGreen}&nbsp;
@@ -41,6 +45,7 @@ const WhatWeProduceScreen = () => {
         mainImage={CabinetImage}
         backgroundVector={CabinetVector}
         marginLeft="40px"
+        mainMobileImage={MobileCabinetsImage}
       />
       <ProductsCategoryComponent
         categoryLogo={TablesLogo}
@@ -59,6 +64,7 @@ const WhatWeProduceScreen = () => {
         backgroundVector={TablesVector}
         marginRight="40px"
         reversePositioning
+        mainMobileImage={MobileTablesImage}
       />
       <ProductsCategoryComponent
         categoryLogo={OrganizersLogo}
@@ -76,6 +82,7 @@ const WhatWeProduceScreen = () => {
         mainImage={OrganizersImage}
         backgroundVector={OrganizersVector}
         marginLeft="40px"
+        mainMobileImage={MobileOrganizersImage}
       />
       <ProductsCategoryComponent
         categoryLogo={ChestsLogo}
@@ -94,6 +101,7 @@ const WhatWeProduceScreen = () => {
         backgroundVector={ChestsVector}
         marginRight="40px"
         reversePositioning
+        mainMobileImage={MobileChestsImage}
       />
     </div>
   );

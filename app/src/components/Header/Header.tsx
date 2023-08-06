@@ -35,7 +35,7 @@ const Header = ({ setLanguageToChosenOption }: IHeader) => {
       } topHeaderItem`}
       ref={navigationRef}
     >
-      <img src={Logo} alt="Szuflandia logo"></img>
+      <img src={Logo} alt="Szuflandia logo" className="szuflandiaLogo"></img>
       <MenuSelection setLanguageToChosenOption={setLanguageToChosenOption} headerVisible={headerVisible} />
     </div>
   );

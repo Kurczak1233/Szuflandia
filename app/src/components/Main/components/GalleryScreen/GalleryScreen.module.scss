@@ -6,6 +6,7 @@
   flex-direction: column;
   margin-top: 300px;
   margin-bottom: 100px;
+  margin: 0 200px;
 }
 .galleryTitle {
   font-size: 32px;
@@ -41,5 +42,19 @@
 .galleryWrapper {
   background-color: $card-background;
   border-radius: 25px;
-  margin: 0 200px;
+}
+@media (max-width: $xl) {
+  .wrapper {
+    margin: 0 100px;
+  }
+}
+@media (max-width: $lg) {
+  .wrapper {
+    margin: 0 50px;
+  }
+}
+@media (max-width: $md) {
+  .wrapper {
+    margin: 0 24px;
+  }
 }

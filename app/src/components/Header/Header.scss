@@ -24,3 +24,23 @@
   top: -100px;
   transition: 1s;
 }
+@media (max-width: $xl) {
+  .topHeaderItem {
+    padding: 0 100px;
+  }
+}
+@media (max-width: $lg) {
+  .topHeaderItem {
+    padding: 0 50px;
+  }
+}
+@media (max-width: $md) {
+  .topHeaderItem {
+    padding: 0 24px;
+  }
+}
+@media (max-width: 400px) {
+  .szuflandiaLogo {
+    max-width: 200px;
+  }
+}

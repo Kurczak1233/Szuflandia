@@ -61,7 +61,7 @@ const GalleryComponent = ({
             width={125}
             className="galleryComponentIcon"
           ></img>
-          <div>
+          <div className="galleryDescriptionItemsWrapper">
             {description.map((item) => (
               <div key={item} className="galleryDescriptionItem">
                 <span className="galleryDescriptionGreenPlus">+</span> {item}

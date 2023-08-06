@@ -34,6 +34,26 @@ const InitialScreen = () => {
             <GreenSeparatorBar />
             <div>{currentLanguageSheet.mainScreen.attributes.oneCraftsman}</div>
           </div>
+          <div className="mobileInitialScreenAttriubtes">
+            <div className="mobileInitialScreenAtrributesItemWrapper">
+              <div className="mobileInitialScreenAtrributesItemWrapperText">
+                {currentLanguageSheet.mainScreen.attributes.madeByHand}
+              </div>
+              <GreenSeparatorBar />
+              <div className="mobileInitialScreenAtrributesItemWrapperText">
+                {currentLanguageSheet.mainScreen.attributes.howManyProducts}
+              </div>
+            </div>
+            <div className="mobileInitialScreenAtrributesItemWrapper">
+              <div className="mobileInitialScreenAtrributesItemWrapperText">
+                {currentLanguageSheet.mainScreen.attributes.uniqueFurniture}
+              </div>
+              <GreenSeparatorBar />
+              <div className="mobileInitialScreenAtrributesItemWrapperText">
+                {currentLanguageSheet.mainScreen.attributes.oneCraftsman}
+              </div>
+            </div>
+          </div>
           <img
             src={SzuflandiaColorLogo}
             alt="Szuflandia logo item"
@@ -49,7 +69,6 @@ const InitialScreen = () => {
         src={mainBackground}
         alt="Szuflandia main background"
         height={1080}
-        width={1920}
       ></img>
       <WhiteVector />
     </>

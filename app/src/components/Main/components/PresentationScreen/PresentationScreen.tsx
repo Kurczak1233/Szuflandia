@@ -20,7 +20,7 @@ const PresentationScreen = () => {
             <span className={styles.greenText}>
               {currentLanguageSheet.presentationScreen.uniqueFurniture}
             </span>
-            &nbsp;
+            <span className={styles.presentationScreenTitleSpace}>&nbsp;</span>
             <span>
               {
                 currentLanguageSheet.presentationScreen
@@ -36,21 +36,18 @@ const PresentationScreen = () => {
               className={styles.firstImage}
               src={FirstPresentationImage}
               width={400}
-              height={265}
               alt="First unique szuflandia furniture presentation"
             ></img>
             <img
               className={styles.secondImage}
               src={SecondPresentationImage}
               width={400}
-              height={265}
               alt="Second unique szuflandia furniture presentation"
             ></img>
             <img
               className={styles.thirdImage}
               src={ThirdPresentationImage}
               width={400}
-              height={265}
               alt="Third unique szuflandia furniture presentation"
             ></img>
           </div>

@@ -1,15 +1,28 @@
 @import "commonStyles/commonStyles.scss";
+.mainContentWrapper {
+  margin-top: 105vh;
+}
 .title {
   font-size: 32px;
   font-family: "Open Sans";
   font-weight: 700;
   color: $gray-text;
   margin-bottom: 32px;
-  margin-top: 32px;
+  margin-top: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .furnitureGreen {
   color: $green-accent;
+}
+@media (max-width: $md) {
+  .title {
+    font-size: 24px;
+  }
+}
+@media (max-width: $sm) {
+  .title {
+    font-size: 20px;
+  }
 }

@@ -44,11 +44,10 @@
   text-justify: inter-word;
 }
 .buttonsWrapper {
-  position: absolute;
-  bottom: 50px;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  margin-top: 24px;
 }
 .button {
   border-radius: 15px;
@@ -80,4 +79,56 @@
 }
 .topHeightEmptySpace {
   width: 50%;
+}
+.mobileCardMainImage {
+  display: none;
+}
+@media (max-width: $xxl) {
+  .itemWrapper {
+    scale: 0.8;
+  }
+}
+@media (max-width: $xl) {
+  .backgroundVector {
+    display: none;
+  }
+  .itemWrapper {
+    margin: 0 36px;
+    scale: 0.75;
+  }
+}
+@media (max-width: $lg) {
+  .cardMainImage {
+    display: none;
+  }
+  .itemWrapper {
+    scale: 1;
+    height: auto;
+    margin: 100px 50px 0 50px;
+  }
+  .wrapper {
+    max-height: 1000px;
+    width: 100%;
+  }
+  .mobileCardMainImage {
+    display: block;
+    border-radius: 25px;
+    margin: 24px 0;
+    width: 100%;
+  }
+  .buttonsWrapper {
+    bottom: -50px;
+  }
+  .borderBottom {
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: $sm) {
+  .button {
+    font-size: 12px;
+  }
+  .productCategoryLogo {
+    scale: 0.7
+  }
 }

@@ -6,6 +6,7 @@ interface IProductsCategoryComponent {
   categoryDescription: string;
   categoriesButtons: string[];
   mainImage: string;
+  mainMobileImage: string;
   backgroundVector: string;
   marginLeft?: string;
   marginRight?: string;
@@ -18,6 +19,7 @@ const ProductsCategoryComponent = ({
   categoryDescription,
   categoriesButtons,
   mainImage,
+  mainMobileImage,
   backgroundVector,
   marginLeft,
   marginRight,
@@ -37,6 +39,7 @@ const ProductsCategoryComponent = ({
         {reversePositioning && (
           <img
             src={backgroundVector}
+            className={styles.backgroundVector}
             style={{
               marginLeft: marginLeft,
               marginRight: marginRight,
@@ -54,14 +57,23 @@ const ProductsCategoryComponent = ({
             }}
           >
             <div className={styles.detailsPart}>
-              <img src={categoryLogo} alt={`Szuflandia ${categoryLogo} logo`} />
+              <img src={categoryLogo} className={styles.productCategoryLogo} alt={`Szuflandia ${categoryLogo} logo`} />
               <h2 className={styles.cardTitle}>{categoryTitle}</h2>
               <div className={styles.cardDescription}>
                 {categoryDescription}
               </div>
+              <img
+                src={mainMobileImage}
+                alt={`Szuflandia ${categoryLogo} image`}
+                className={styles.mobileCardMainImage}
+              />
               <div className={styles.buttonsWrapper}>{itemsButtons()}</div>
             </div>
-            <img src={mainImage} alt={`Szuflandia ${categoryLogo} image`} />
+            <img
+              src={mainImage}
+              alt={`Szuflandia ${categoryLogo} image`}
+              className={styles.cardMainImage}
+            />
           </div>
           <div className={styles.borderBottom}>
             <div className={styles.borderElement}></div>
@@ -70,6 +82,7 @@ const ProductsCategoryComponent = ({
         {!reversePositioning && (
           <img
             src={backgroundVector}
+            className={styles.backgroundVector}
             style={{
               marginLeft: marginLeft,
               marginRight: marginRight,

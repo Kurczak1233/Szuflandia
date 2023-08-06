@@ -1,14 +1,6 @@
 .App {
   text-align: center;
 }
-@media (max-width: 1400px) {
-  // .App {
-  //   display: none;
-  // }
-  .MobileVersion {
-    display: block;
-  }
-}
 @media (min-width: 1400px) {
   .App {
     display: block;

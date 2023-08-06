@@ -1,6 +1,16 @@
-import styles from "./GreenSeparatorBar.module.scss"
+import styles from "./GreenSeparatorBar.module.scss";
 
-const GreenSeparatorBar = () => {
-  return <div className={styles.greenSeparatorBar}></div>;
+interface IGreenSeparatorBar {
+  isHidden?: boolean;
+}
+
+const GreenSeparatorBar = ({ isHidden }: IGreenSeparatorBar) => {
+  return (
+    <div
+      id="greenSeparatorBar"
+      style={{ display: isHidden ? "none" : "initial" }}
+      className={styles.greenSeparatorBar}
+    ></div>
+  );
 };
 export default GreenSeparatorBar;
