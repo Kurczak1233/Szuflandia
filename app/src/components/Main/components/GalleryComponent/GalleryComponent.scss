@@ -49,7 +49,6 @@
   background-color: $green-accent;
   border-radius: 25px;
   color: $bright-white-text;
-  width: 70px;
   padding: 4px 12px;
   font-size: 14px;
   font-family: "Open Sans";
@@ -59,9 +58,16 @@
   margin-right: 16px;
 }
 .galleryComponentBreakingLine {
-  border: 1px solid $gray-text;
-  opacity: 0.08;
-  margin: 0;
+  border-radius: 8px;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(
+    0.25turn,
+    $background-sketches-color,
+    rgba(143, 84, 84, 1),
+    $background-sketches-color
+  );
+  border: none;
 }
 .galleryComponentBackgroundImage {
   animation-fill-mode: both;
@@ -79,6 +85,9 @@
     left: 0px;
     transition: all 0.5s;
   }
+}
+.galleryComponentMobileButton {
+  display: none;
 }
 @media (max-width: $xxl) {
   .galleryComponentTitle {
@@ -124,6 +133,33 @@
   }
   .galleryComponentIcon {
     min-width: 100px;
+  }
+  .galleryComponentLeftSide {
+    margin-left: 0px;
+  }
+  .galleryComponentMobileButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $green-accent;
+    border-radius: 25px;
+    color: $bright-white-text;
+    width: 70px;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-align: center;
+    margin-top: 12px;
+  }
+  .galleryComponentMobileButtonWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .galleryComponentContainer:hover {
+    background-color: initial !important;
   }
 }
 @media (max-width: $sm) {

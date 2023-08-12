@@ -1,0 +1,41 @@
+@import "commonStyles/commonStyles.scss";
+.galleryFurnitureItem {
+  max-width: 370px;
+  background-color: $card-background;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.galleryFurnitureItemTitle {
+  font-size: 24px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: $green-accent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.galleryFurnitureItemWrapper {
+  position: relative;
+  top: -34px;
+}
+.galleryFurnitureItemVector {
+  position: relative;
+  top: -34px;
+}
+.galleryFurnitureItemImage {
+    min-height: 244px;
+    max-height: 244px;
+    max-width: 100%;
+}
+@media (max-width: 400px) {
+    .galleryFurnitureItemWrapper {
+        position: relative;
+        top: -24px;
+      }
+      .galleryFurnitureItemVector {
+        position: relative;
+        top: -24px;
+      }
+}

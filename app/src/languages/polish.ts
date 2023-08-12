@@ -105,5 +105,311 @@ export const PolishLanguage: ICommonLanugageInterface = {
         ],
       },
     ],
+    galleryComponentMisc: {
+      seeMore: "ZOBACZ WIĘCEJ",
+      open: "Otwórz",
+      close: "Zamknij",
+      currentCollection: "Aktualna kolekcja",
+      showMore: "Pokaż więcej",
+      closeGroup: "Zamknij grupę",
+    },
+    drawers: [
+      {
+        title: "Małe ozdobne szafeczki",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Małe ozdobne szafeczki",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafki z szybkami",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Bogato zdobiona duża komoda",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Wąskie szafki ozdobne",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Większa szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Większa szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Większa szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafki ozdobne",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Mała szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+    ],
+    tables: [
+      {
+        title: "Paskowana ozdobny stolik",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ozdobny stolik",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ozdobny stolik",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ozdobny stolik - organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ozdobny stolik - organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Stolik szachowy",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Stolik szachowy",
+        sizing: "",
+        createdUsing: "",
+      },
+    ],
+    organizers: [
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Małe organizery dekoracyjne",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Duży organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Duży organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizery otwarte",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Duży organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Duży organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizery dekoracyjne",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+    ],
+    chests: [
+      {
+        title: "Ozdobne pojemniki - lezki",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ozdobne małe pojemniki",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ozdobne większe pojemniki",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ozdobne pojemniki foremne",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Skrzynka",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Przeszklona skrzynka",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Niewielkie ozdobne pojemniki",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Przeszklona skrzynia - organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+    ],
   },
 };

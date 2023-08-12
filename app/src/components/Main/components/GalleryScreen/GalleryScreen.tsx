@@ -10,7 +10,17 @@ import DrawerImage from "images/DrawersGalleryImage.png";
 import ChestsImage from "images/ChestsGalleryImage.png";
 import TablesImage from "images/TablesGalleryImage.png";
 import OrganizersImage from "images/OrganizersGalleryImage.png";
+import DrawersComponent from "./Utils/Drawers";
+import TablesComponent from "./Utils/Tables";
+import OrganizersComponent from "./Utils/Organizers";
+import ChestsComponent from "./Utils/Chests";
+
 const GalleryScreen = () => {
+  const { Drawers } = DrawersComponent();
+  const { Tables } = TablesComponent();
+  const { Organizers } = OrganizersComponent();
+  const { Chests } = ChestsComponent();
+
   const currentLanguageSheet = React.useContext(LanguageContext);
 
   return (
@@ -41,6 +51,7 @@ const GalleryScreen = () => {
               currentLanguageSheet.galleryScreen.galleryItems[0].description
             }
             icon={CabinetLogo}
+            itemsCollection={Drawers}
             hoverImage={DrawerImage}
             topCorner
           />
@@ -50,6 +61,7 @@ const GalleryScreen = () => {
               currentLanguageSheet.galleryScreen.galleryItems[1].description
             }
             icon={TablesLogo}
+            itemsCollection={Tables}
             hoverImage={TablesImage}
           />
           <GalleryComponent
@@ -58,6 +70,7 @@ const GalleryScreen = () => {
               currentLanguageSheet.galleryScreen.galleryItems[2].description
             }
             icon={OrganizersLogo}
+            itemsCollection={Organizers}
             hoverImage={OrganizersImage}
           />
           <GalleryComponent
@@ -65,6 +78,7 @@ const GalleryScreen = () => {
             description={
               currentLanguageSheet.galleryScreen.galleryItems[3].description
             }
+            itemsCollection={Chests}
             icon={ChestsLogo}
             noBorderBottom
             hoverImage={ChestsImage}

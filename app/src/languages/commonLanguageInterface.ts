@@ -64,9 +64,28 @@ interface ICommonLanguageGallery {
   furtherDescriptionFirstSentence: string;
   furtherDescriptionSecondSentence: string;
   galleryItems: ICommonLanguageGalleryItem[];
+  galleryComponentMisc: IGalleryComponentMisc;
+  drawers: IDrawerItem[];
+  tables: IDrawerItem[];
+  organizers: IDrawerItem[];
+  chests: IDrawerItem[];
 }
 
 interface ICommonLanguageGalleryItem {
   title: string;
   description: string[];
+}
+
+interface IGalleryComponentMisc {
+  seeMore: string;
+  open: string;
+  close: string;
+  currentCollection: string;
+  showMore: string;
+  closeGroup: string;
+}
+interface IDrawerItem {
+  title: string;
+  sizing: string;
+  createdUsing: string;
 }

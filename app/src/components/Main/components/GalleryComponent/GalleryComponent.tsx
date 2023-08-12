@@ -1,11 +1,16 @@
 import { useState } from "react";
 import "./GalleryComponent.scss";
+import GalleryCollection from "../GalleryCollection/GalleryCollection";
+import { IGalleryFurnitureItem } from "../GalleryScreen/Utils/IGalleryFurnitureItem";
+import { LanguageContext } from "App";
+import React from "react";
 
 interface IGalleryComponent {
   title: string;
   icon: string;
   description: string[];
   hoverImage: string;
+  itemsCollection: IGalleryFurnitureItem[];
   noBorderBottom?: boolean;
   topCorner?: boolean;
   bottomCorner?: boolean;
@@ -16,11 +21,14 @@ const GalleryComponent = ({
   icon,
   description,
   hoverImage,
+  itemsCollection,
   noBorderBottom,
   topCorner,
   bottomCorner,
 }: IGalleryComponent) => {
   const [isMouseOver, setIsMouseOver] = useState<boolean>(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const currentLanguageSheet = React.useContext(LanguageContext);
 
   const handleMouseEnter = () => {
     setIsMouseOver(() => true);
@@ -28,6 +36,14 @@ const GalleryComponent = ({
 
   const handleMouseLeave = () => {
     setIsMouseOver(() => false);
+  };
+
+  const closeGallery = () => {
+    setIsOpen(false);
+  };
+
+  const changeGalleryState = () => {
+    setIsOpen((state) => !state);
   };
 
   return (
@@ -40,6 +56,7 @@ const GalleryComponent = ({
           borderBottomRightRadius: bottomCorner ? "25px" : 0,
           borderBottomLeftRadius: bottomCorner ? "25px" : 0,
         }}
+        onClick={changeGalleryState}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
@@ -54,7 +71,14 @@ const GalleryComponent = ({
             alt={`Szuflandia gallery item image: ${title}`}
             height={140}
           ></img>
-          <div className="galleryComponentTitle">{title}</div>
+          <div className="galleryComponentMobileButtonWrapper">
+            <div className="galleryComponentTitle">{title}</div>
+            <div className="galleryComponentMobileButton">
+              {isOpen
+                ? currentLanguageSheet.galleryScreen.galleryComponentMisc.close
+                : currentLanguageSheet.galleryScreen.galleryComponentMisc.open}
+            </div>
+          </div>
           <img
             src={icon}
             alt={`Szuflandia gallery item: ${title}`}
@@ -71,11 +95,19 @@ const GalleryComponent = ({
         </div>
         <div className="galleryComponentButtonWrapper">
           <div className="galleryComponentSmallButton">
-            {isMouseOver ? `>>>` : "SEE MORE"}
+            {isMouseOver
+              ? `>>>`
+              : currentLanguageSheet.galleryScreen.galleryComponentMisc.seeMore}
           </div>
         </div>
       </div>
       {!noBorderBottom && <hr className="galleryComponentBreakingLine" />}
+      {isOpen && (
+        <GalleryCollection
+          closeItem={closeGallery}
+          itemsCollection={itemsCollection}
+        />
+      )}
     </>
   );
 };

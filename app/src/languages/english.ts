@@ -105,5 +105,311 @@ export const EnglishLanguage: ICommonLanugageInterface = {
         ],
       },
     ],
+    galleryComponentMisc: {
+      seeMore: "SEE MORE",
+      open: "Open",
+      close: "Close",
+      currentCollection: "Current collection",
+      showMore: "ShowMore",
+      closeGroup: "CloseGroup",
+    },
+    drawers: [
+      {
+        title: "Small decorative cupboards",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative cabinets",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative cupboard",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Cabinets with panes",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ornamental cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ornamental cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Richly decorated large chest of drawers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ornamental cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ornamental cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Narrow decorative cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ornamental cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ornamental cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Larger decorative cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Larger decorative cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Larger decorative cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative cabinets",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative cabinets",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+    ],
+    tables: [
+      {
+        title: "Striped decorative table",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative table",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative table",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative table - organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative table - organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Chess table",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Chess table",
+        sizing: "",
+        createdUsing: "",
+      },
+    ],
+    organizers: [
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organisers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Large decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Large decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Open organisers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Large decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Large decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organisers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organisers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+    ],
+    chests: [
+      {
+        title: "Decorative containers - lozenges",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative small containers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative larger containers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative shaped containers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Box",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Glazed box",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative containers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Glazed box - organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+    ],
   },
 };
