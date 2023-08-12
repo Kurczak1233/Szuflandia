@@ -143,6 +143,19 @@
       justify-content: center;
     }
   }
+  .mobileInitialScreenAtrributesItemWrapper {
+    margin-top: 4px;
+  }
+  .initialScreenSzuflandiaLogo {
+    max-width: 30vw;
+  }
+  .mobileInitialScreenAttriubtes {
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+  .initialScreenMainTitle {
+    margin: 8px 0;
+  }
 }
 @media (max-width: $sm) {
   .initialScreenDescription {
@@ -150,12 +163,12 @@
     min-width: 100%;
   }
   .initialScreenTopText {
-    font-size: 24px;
+    font-size: 20px;
   }
   .initialScreenMainTitle {
-    font-size: 40px;
+    font-size: 34px;
   }
   .initialScreenDescription {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
