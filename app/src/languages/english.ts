@@ -115,7 +115,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
     },
     drawers: [
       {
-        title: "Small decorative cupboards",
+        title: 'Small decorative cupboards',
         sizing: "",
         createdUsing: "",
       },
@@ -126,13 +126,13 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Decorative cupboard",
-        sizing: "",
+        sizing: "52 Height x 34 Width x 24 Length",
         createdUsing: "",
       },
       {
-        title: "Cabinets with panes",
-        sizing: "",
-        createdUsing: "",
+        title: "Glazed cabinets",
+        sizing: "34 Height x 30 Width x 20 Length ", 
+        createdUsing: ""
       },
       {
         title: "Decorative cabinet",
@@ -145,72 +145,72 @@ export const EnglishLanguage: ICommonLanugageInterface = {
         createdUsing: "",
       },
       {
-        title: "Ornamental cabinet",
-        sizing: "",
-        createdUsing: "",
+        title: "Decorative cabinet",
+        sizing: "54 Height x 26 Width x 19 Length",
+        createdUsing: ""
       },
       {
         title: "Richly decorated large chest of drawers",
-        sizing: "",
+        sizing: "45 Height x 95 Width x 22 Length",
         createdUsing: "",
       },
       {
         title: "Ornamental cabinet",
-        sizing: "",
-        createdUsing: "",
+        sizing: "54 Height x 26 Width x 20 Length",
+        createdUsing: ""
       },
       {
         title: "Ornamental cabinet",
-        sizing: "",
-        createdUsing: "",
+        sizing: "52 Height x 34 Width x 24 Length",
+        createdUsing: ""
       },
       {
         title: "Narrow decorative cabinet",
-        sizing: "",
-        createdUsing: "",
+        sizing: "43 Height x 15 Width x 12 Length",
+        createdUsing: ""
       },
       {
         title: "Decorative cabinet",
+        sizing: "54 Height x 26 Width x 19 Length",
+        createdUsing: ""
+      },
+      {
+        title: "Ornamental cabinet",
+        sizing: "54 Height x 26 Width x 20 Length",
+        createdUsing: ""
+      },
+      {
+        title: "Ornamental cabinet",
+        sizing: "54 Height x 26 Width x 20 Length",
+        createdUsing: ""
+      },
+      {
+        title: "Larger decorative cabinet",
+        sizing: "84 Height x 36 Width x 24 Length",
+        createdUsing: ""
+      },
+      {
+        title: "Larger decorative cabinet",
+        sizing: "75 Height x 36 Width x 27 Length",
+        createdUsing: ""
+      },
+      {
+        title: "Larger decorative cabinet",
+        sizing: "102 Height x 36 Width x 23 Length",
+        createdUsing: ""
+      },
+      {
+        title: "Decorative cabinets",
+        sizing: "26 Height x 51 Width x 21 Length",
+        createdUsing: ""
+      },
+      {
+        title: "Decorative cupboard",
         sizing: "",
         createdUsing: "",
       },
       {
         title: "Ornamental cabinet",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
-        title: "Ornamental cabinet",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
-        title: "Larger decorative cabinet",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
-        title: "Larger decorative cabinet",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
-        title: "Larger decorative cabinet",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
-        title: "Decorative cabinets",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
-        title: "Decorative cabinet",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
-        title: "Decorative cabinets",
         sizing: "",
         createdUsing: "",
       },
@@ -238,12 +238,12 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Decorative table - organiser",
-        sizing: "",
+        sizing: "50 Wysokość x 46 Szerokość x 36 Długość",
         createdUsing: "",
       },
       {
         title: "Decorative table - organiser",
-        sizing: "",
+        sizing: "50 Wysokość x 49 Szerokość x 39 Długość",
         createdUsing: "",
       },
       {
@@ -260,12 +260,12 @@ export const EnglishLanguage: ICommonLanugageInterface = {
     organizers: [
       {
         title: "Decorative organiser",
-        sizing: "",
+        sizing: "43 Height x 39 Width x 19 Length",
         createdUsing: "",
       },
       {
         title: "Decorative organiser",
-        sizing: "",
+        sizing: "40 Height x 35 Width x 18 Length",
         createdUsing: "",
       },
       {
@@ -275,7 +275,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Decorative organiser",
-        sizing: "",
+        sizing: "46 Height x 40 Width x 20 Length",
         createdUsing: "",
       },
       {
@@ -305,7 +305,12 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Decorative organiser",
-        sizing: "",
+        sizing: "40 Height x 37 Width x 19 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative organiser",
+        sizing: "36 Height x 33 Width x 18 Length",
         createdUsing: "",
       },
       {
@@ -320,12 +325,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Decorative organiser",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
-        title: "Decorative organiser",
-        sizing: "",
+        sizing: "52 Height x 32 Width x 24 Length",
         createdUsing: "",
       },
       {
@@ -335,7 +335,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Large decorative organiser",
-        sizing: "",
+        sizing: "102 Height x 40 Width x 24 Length",
         createdUsing: "",
       },
       {
@@ -350,7 +350,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Large decorative organiser",
-        sizing: "",
+        sizing: "102 Height x 40 Width x 24 Length",
         createdUsing: "",
       },
       {
@@ -360,7 +360,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Decorative organisers",
-        sizing: "",
+        sizing: "44 Height x 32 Width x 20 Length",
         createdUsing: "",
       },
       {

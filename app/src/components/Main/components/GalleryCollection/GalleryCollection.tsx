@@ -32,8 +32,13 @@ const GalleryCollection = ({
     numberOfItems: number
   ) => {
     const items = itemsCollection.slice(0, numberOfItems);
-    return items.map((element) => {
-      return <GalleryFurnitureItem item={element} />;
+    return items.map((element, index) => {
+      return (
+        <GalleryFurnitureItem
+          item={element}
+          key={`${index} ${element.title}`}
+        />
+      );
     });
   };
 

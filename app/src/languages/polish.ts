@@ -126,12 +126,12 @@ export const PolishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Szafka ozdobna",
-        sizing: "",
+        sizing: "52 Wysokość x 34 Szerokość x 24 Długość",
         createdUsing: "",
       },
       {
         title: "Szafki z szybkami",
-        sizing: "",
+        sizing: "34 Wysokość x 30 Szerokość x 20 Długość",
         createdUsing: "",
       },
       {
@@ -146,62 +146,62 @@ export const PolishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Szafka ozdobna",
-        sizing: "",
+        sizing: "54 Wysokość x 26 Szerokość x 19 Długość",
         createdUsing: "",
       },
       {
         title: "Bogato zdobiona duża komoda",
-        sizing: "",
+        sizing: "45 Wysokość x 95 Szerokość x 22 Długość",
         createdUsing: "",
       },
       {
         title: "Szafka ozdobna",
-        sizing: "",
+        sizing: "54 Wysokość x 26 Szerokość x 20 Długość",
         createdUsing: "",
       },
       {
         title: "Szafka ozdobna",
-        sizing: "",
+        sizing: "52 Wysokość x 34 Szerokość x 24 Długość",
         createdUsing: "",
       },
       {
         title: "Wąskie szafki ozdobne",
-        sizing: "",
+        sizing: "43 Wysokość x 15 Szerokość x 12 Długość",
         createdUsing: "",
       },
       {
         title: "Szafka ozdobna",
-        sizing: "",
+        sizing: "54 Wysokość x 26 Szerokość x 19 Długość",
         createdUsing: "",
       },
       {
         title: "Szafka ozdobna",
-        sizing: "",
+        sizing: "54 Wysokość x 26 Szerokość x 20 Długość",
         createdUsing: "",
       },
       {
         title: "Szafka ozdobna",
-        sizing: "",
+        sizing: "54 Wysokość x 26 Szerokość x 20 Długość",
         createdUsing: "",
       },
       {
         title: "Większa szafka ozdobna",
-        sizing: "",
+        sizing: "84 Wysokość x 36 Szerokość x 24 Długość",
         createdUsing: "",
       },
       {
         title: "Większa szafka ozdobna",
-        sizing: "",
+        sizing: "75 Wysokość x 36 Szerokość x 27 Długość",
         createdUsing: "",
       },
       {
         title: "Większa szafka ozdobna",
-        sizing: "",
+        sizing: "102 Wysokość x 36 Szerokość x 23 Długość",
         createdUsing: "",
       },
       {
         title: "Szafki ozdobne",
-        sizing: "",
+        sizing: "26 Wysokość x 51 Szerokość x 21 Długość",
         createdUsing: "",
       },
       {
@@ -238,12 +238,12 @@ export const PolishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Ozdobny stolik - organizer",
-        sizing: "",
+        sizing: "50 Wysokość x 46 Szerokość x 36 Długość",
         createdUsing: "",
       },
       {
         title: "Ozdobny stolik - organizer",
-        sizing: "",
+        sizing: "50 Wysokość x 49 Szerokość x 39 Długość",
         createdUsing: "",
       },
       {
@@ -260,12 +260,12 @@ export const PolishLanguage: ICommonLanugageInterface = {
     organizers: [
       {
         title: "Organizer dekoracyjny",
-        sizing: "",
+        sizing: "43 Wysokość x 39 Szerokość x 19 Długość",
         createdUsing: "",
       },
       {
         title: "Organizer dekoracyjny",
-        sizing: "",
+        sizing: "40 Wysokość x 35 Szerokość x 18 Długość",
         createdUsing: "",
       },
       {
@@ -275,7 +275,7 @@ export const PolishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Organizer dekoracyjny",
-        sizing: "",
+        sizing: "46 Wysokość x 40 Szerokość x 20 Długość",
         createdUsing: "",
       },
       {
@@ -305,7 +305,12 @@ export const PolishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Organizer dekoracyjny",
-        sizing: "",
+        sizing: "40 Wysokość x 37 Szerokość x 19 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "36 Wysokość x 33 Szerokość x 18 Długość",
         createdUsing: "",
       },
       {
@@ -320,12 +325,7 @@ export const PolishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Organizer dekoracyjny",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
-        title: "Organizer dekoracyjny",
-        sizing: "",
+        sizing: "52 Wysokość x 32 Szerokość x 24 Długość",
         createdUsing: "",
       },
       {
@@ -335,7 +335,7 @@ export const PolishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Duży organizer dekoracyjny",
-        sizing: "",
+        sizing: "102 Wysokość x 40 Szerokość x 24 Długość",
         createdUsing: "",
       },
       {
@@ -350,7 +350,7 @@ export const PolishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Duży organizer dekoracyjny",
-        sizing: "",
+        sizing: "102 Wysokość x 40 Szerokość x 24 Długość",
         createdUsing: "",
       },
       {
@@ -360,7 +360,7 @@ export const PolishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Organizer dekoracyjny",
-        sizing: "",
+        sizing: "44 Wysokość x 32 Szerokość x 20 Długość",
         createdUsing: "",
       },
       {
