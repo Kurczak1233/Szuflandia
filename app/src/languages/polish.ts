@@ -222,7 +222,7 @@ export const PolishLanguage: ICommonLanugageInterface = {
     ],
     tables: [
       {
-        title: "Paskowana ozdobny stolik",
+        title: "Ozdobny stolik",
         sizing: "",
         createdUsing: "",
       },

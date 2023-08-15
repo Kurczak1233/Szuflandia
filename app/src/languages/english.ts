@@ -222,7 +222,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
     ],
     tables: [
       {
-        title: "Striped decorative table",
+        title: "Decorative table",
         sizing: "",
         createdUsing: "",
       },

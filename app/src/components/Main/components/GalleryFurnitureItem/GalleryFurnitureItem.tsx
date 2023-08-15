@@ -4,9 +4,10 @@ import "./GalleryFurnitureItem.scss";
 
 interface IGalleryFurnitureInterface {
   item: IGalleryFurnitureItem;
+  index: number;
 }
 
-const GalleryFurnitureItem = ({ item }: IGalleryFurnitureInterface) => {
+const GalleryFurnitureItem = ({ item, index }: IGalleryFurnitureInterface) => {
   return (
     <div className="galleryFurnitureItem">
       <img src={item.img} alt={item.alt} loading="lazy" className="galleryFurnitureItemImage"/>
@@ -17,7 +18,7 @@ const GalleryFurnitureItem = ({ item }: IGalleryFurnitureInterface) => {
         className="galleryFurnitureItemVector"
       />
       <div className="galleryFurnitureItemWrapper">
-        <div className="galleryFurnitureItemTitle">{item.title}</div>
+        <div className="galleryFurnitureItemTitle">{index + 1}. {item.title}</div>
         <div>{item.sizing}</div>
         <div>{item.createdUsing}</div>
       </div>

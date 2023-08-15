@@ -36,6 +36,7 @@ const GalleryCollection = ({
       return (
         <GalleryFurnitureItem
           item={element}
+          index={index}
           key={`${index} ${element.title}`}
         />
       );
