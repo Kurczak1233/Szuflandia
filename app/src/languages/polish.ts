@@ -396,16 +396,6 @@ export const PolishLanguage: ICommonLanugageInterface = {
         createdUsing: "",
       },
       {
-        title: "Przeszklona skrzynka",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
-        title: "Niewielkie ozdobne pojemniki",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
         title: "Przeszklona skrzynia - organizer",
         sizing: "",
         createdUsing: "",

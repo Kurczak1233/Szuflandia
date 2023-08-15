@@ -2,6 +2,7 @@
 .topHeaderItem {
   max-width: 100%;
   width: -webkit-fill-available;
+  width: -moz-available;
   min-height: 100px;
   background-color: rgba(151, 151, 151, 24%);
   padding: 0 $common-margin;

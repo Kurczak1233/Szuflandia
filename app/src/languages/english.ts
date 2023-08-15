@@ -391,16 +391,6 @@ export const EnglishLanguage: ICommonLanugageInterface = {
         createdUsing: "",
       },
       {
-        title: "Box",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
-        title: "Glazed box",
-        sizing: "",
-        createdUsing: "",
-      },
-      {
         title: "Small decorative containers",
         sizing: "",
         createdUsing: "",

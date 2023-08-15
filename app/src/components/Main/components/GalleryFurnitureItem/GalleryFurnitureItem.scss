@@ -25,17 +25,18 @@
   top: -34px;
 }
 .galleryFurnitureItemImage {
-    min-height: 244px;
-    max-height: 244px;
-    max-width: 100%;
+  min-height: 244px;
+  max-height: 244px;
+  max-width: 100%;
+  min-width: 100%;
 }
 @media (max-width: 400px) {
-    .galleryFurnitureItemWrapper {
-        position: relative;
-        top: -24px;
-      }
-      .galleryFurnitureItemVector {
-        position: relative;
-        top: -24px;
-      }
+  .galleryFurnitureItemWrapper {
+    position: relative;
+    top: -24px;
+  }
+  .galleryFurnitureItemVector {
+    position: relative;
+    top: -24px;
+  }
 }
