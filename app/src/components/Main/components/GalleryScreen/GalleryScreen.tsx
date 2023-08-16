@@ -24,7 +24,7 @@ const GalleryScreen = () => {
   const currentLanguageSheet = React.useContext(LanguageContext);
 
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="gallery">
       <div className={styles.galleryTitle}>
         {currentLanguageSheet.galleryScreen.galleryTitle}
       </div>

@@ -21,14 +21,16 @@ const MenuSelection = ({
   const { isDropdownOpen, handleDropdown, menuBtnRef, menuRef } =
     useClickedOutsideElement();
 
-  const testFunc = () => {
-    return;
-  };
-
   const navigateToTop = () => {
     const element = document.getElementById("mainScreen");
     element && element.scrollIntoView({ behavior: "smooth" });
   };
+
+  const navigateToGallery = () => {
+    const element = document.getElementById("gallery");
+    element && element.scrollIntoView({ behavior: "smooth" });
+  };
+
   const navigateToFooter = () => {
     const element = document.getElementById("footer");
     element && element.scrollIntoView({ behavior: "smooth" });
@@ -52,7 +54,7 @@ const MenuSelection = ({
         />
         <MenuItem
           name={currentLanguageSheet.header.mainText2}
-          onClick={testFunc}
+          onClick={navigateToGallery}
         />
         <MenuItem
           name={currentLanguageSheet.header.mainText3}
@@ -108,7 +110,10 @@ const MenuSelection = ({
           />
           <MobileMenuItem
             name={currentLanguageSheet.header.mainText2}
-            onClick={testFunc}
+            onClick={() => {
+              navigateToGallery();
+              handleDropdown(false);
+            }}
             isItemActive={isDropdownOpen && headerVisible}
             top={"102px"}
             width="220px"
