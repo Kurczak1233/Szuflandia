@@ -27,11 +27,13 @@ export const PolishLanguage: ICommonLanugageInterface = {
       "Ręczne tworzenie oraz zastosowanie różnorodnych materiałów gwarantują, że każdy mebel jest niepowtarzalny.",
   },
   footer: {
-    contactUs: "Skontaktuj się z nami",
+    contact: "Skontaktuj",
+    contactUs: " się z nami",
     contactUsDescription: "Ożyw swoje wnętrze unikalnymi meblami!",
     email: "Email",
     phonePolish: "Polski",
     phoneEnglish: "Angielski",
+    madeBy: "Zaprojektowane przez:"
   },
   whatWeProduceScreen: {
     cabinetsItem: {

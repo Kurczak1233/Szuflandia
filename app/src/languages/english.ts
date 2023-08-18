@@ -27,11 +27,13 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       "Handmade creation and the use of a variety of materials ensure that each piece of furniture is unique",
   },
   footer: {
-    contactUs: "Contact us",
+    contact: "Contact",
+    contactUs: " with us",
     contactUsDescription: "Enliven your interior with unique furniture!",
     email: "Email",
     phonePolish: "Polish",
     phoneEnglish: "English",
+    madeBy: "Made by:"
   },
   whatWeProduceScreen: {
     cabinetsItem: {

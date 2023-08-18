@@ -35,11 +35,13 @@ interface ICommonLanguagePresentation {
 }
 
 interface ICommonLanguageFooter {
+  contact: string;
   contactUs: string;
   contactUsDescription: string;
   email: string;
   phonePolish: string;
   phoneEnglish: string;
+  madeBy: string;
 }
 
 interface ICommonLanguageProduction {
