@@ -27,26 +27,27 @@ const Footer = () => {
           <div className={styles.footerSecondPartAndOrganizer}>
             <div>
               <div className={styles.contactDetailsWrapper}>
-                <span className={styles.contact}>Contact </span>
-                <span className={styles.details}>details:</span>
+                <span className={styles.contact}>{currentLanguageSheet.footer.detailsContact}</span>
+                <span className={styles.details}>{currentLanguageSheet.footer.detailsDetails}</span>
               </div>
               <div>
                 <div className={styles.contactDetailItem}>
                   <div className={styles.footerGreenSideBar} />
                   <span className={styles.contactDetailItemText}>
-                    Phone (Foreign clients): +48 576 590 697
+                  {currentLanguageSheet.footer.currentPhoneForeign}
                   </span>
                 </div>
                 <div className={styles.contactDetailItem}>
                   <div className={styles.footerGreenSideBar} />
                   <span className={styles.contactDetailItemText}>
-                    Phone (Polish clients): +48 505 695 555
+                  {currentLanguageSheet.footer.currentPhoneMotherland}
                   </span>
                 </div>
                 <div className={styles.contactDetailItem}>
                   <div className={styles.footerGreenSideBar} />
                   <span className={styles.contactDetailItemText}>
-                    Email: Kurczak12333@gmail.com
+                    
+                    {currentLanguageSheet.footer.email}
                   </span>
                 </div>
               </div>
@@ -55,11 +56,11 @@ const Footer = () => {
           </div>
           <hr className={styles.breakingLine}></hr>
           <div className={styles.authorSubtitle}>
-            <span className={styles.madeByAuthor}>Made by:&nbsp;</span>
+            <span className={styles.madeByAuthor}>{currentLanguageSheet.footer.madeBy}&nbsp;</span>
             <span className={styles.madeByAuthorName}>
-              Michał Kupczak (
+            {currentLanguageSheet.footer.author}(
               <a className={styles.link} href="https://michalkupczak.com/">
-                michalkupczak.com
+              {currentLanguageSheet.footer.authorSite}
               </a>
               )
             </span>

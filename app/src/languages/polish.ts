@@ -29,11 +29,14 @@ export const PolishLanguage: ICommonLanugageInterface = {
   footer: {
     contact: "Skontaktuj",
     contactUs: " się z nami",
-    contactUsDescription: "Ożyw swoje wnętrze unikalnymi meblami!",
-    email: "Email",
-    phonePolish: "Polski",
-    phoneEnglish: "Angielski",
-    madeBy: "Zaprojektowane przez:"
+    email: "Email: Kurczak12333@gmail.com",
+    madeBy: "Stworzone przez: ",
+    currentPhoneMotherland: "Telefon (POL): +48 505 695 555",
+    currentPhoneForeign: "Telefon (ENG): +48 576 590 697",
+    detailsContact: "Dane ",
+    detailsDetails: "kontaktowe:",
+    author: "Michała Kupczaka ",
+    authorSite: "michalkupczak.com"
   },
   whatWeProduceScreen: {
     cabinetsItem: {

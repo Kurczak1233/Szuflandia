@@ -37,11 +37,14 @@ interface ICommonLanguagePresentation {
 interface ICommonLanguageFooter {
   contact: string;
   contactUs: string;
-  contactUsDescription: string;
   email: string;
-  phonePolish: string;
-  phoneEnglish: string;
   madeBy: string;
+  currentPhoneMotherland: string;
+  currentPhoneForeign: string;
+  detailsContact: string;
+  detailsDetails: string;
+  author: string;
+  authorSite: string;
 }
 
 interface ICommonLanguageProduction {
