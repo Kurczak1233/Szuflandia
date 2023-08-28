@@ -115,8 +115,8 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       open: "Open",
       close: "Close",
       currentCollection: "Current collection",
-      showMore: "ShowMore",
-      closeGroup: "CloseGroup",
+      showMore: "Show More",
+      closeGroup: "Close Group",
     },
     drawers: [
       {
