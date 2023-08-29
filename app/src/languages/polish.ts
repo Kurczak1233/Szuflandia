@@ -10,7 +10,7 @@ export const PolishLanguage: ICommonLanugageInterface = {
     topText: "Witamy w",
     szuflandiaTitle: "Szuflandii",
     siteDescription:
-      "Miejscu, w którym wyjątkowy rzemieślnik tworzy wykwintne, ręcznie robione meble z niezrównaną precyzją i dbałością o szczegóły",
+      "W tym warsztacie jeden rzemieślnik tworzy ręcznie robione meble z dbałością o detale.",
     attributes: {
       madeByHand: "Ręcznie tworzone",
       howManyProducts: "+200 mebli",

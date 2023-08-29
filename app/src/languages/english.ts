@@ -10,7 +10,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
     topText: "Welcome to",
     szuflandiaTitle: "Szuflandia",
     siteDescription:
-      "A place where exceptional craftsman create exquisite handmade furniture with unrivaled precision and attention to detail ",
+      "In this workshop, one craftsman creates handmade furniture with attention to detail.",
     attributes: {
       madeByHand: "Handmade",
       howManyProducts: "+200 products",
