@@ -19,7 +19,7 @@ export const PolishLanguage: ICommonLanugageInterface = {
     },
   },
   presentationScreen: {
-    uniqueFurniture: "Unikalnalnie",
+    uniqueFurniture: "Unikalnie",
     description:
       "Nasze meble wyróżniają się tym, że każdy element jest indywidualnie inspirowany, wykonany z niezwykłą starannością, zapewniając charakterystyczne i ekskluzywne kreacje.",
     uniqueFurnitureSecondPart: "zaprojektowane",
