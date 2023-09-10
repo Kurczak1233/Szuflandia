@@ -1,9 +1,9 @@
-import d1 from "images/MainGallery/Chests/01.jpg";
-import d2 from "images/MainGallery/Chests/02.jpg";
-import d3 from "images/MainGallery/Chests/03.jpg";
-import d4 from "images/MainGallery/Chests/04.jpg";
-import d7 from "images/MainGallery/Chests/07.jpg";
-import d8 from "images/MainGallery/Chests/08.jpg";
+import d1 from "images/MainGallery/Chests/01.webp";
+import d2 from "images/MainGallery/Chests/02.webp";
+import d3 from "images/MainGallery/Chests/03.webp";
+import d4 from "images/MainGallery/Chests/04.webp";
+import d7 from "images/MainGallery/Chests/07.webp";
+import d8 from "images/MainGallery/Chests/08.webp";
 import { IGalleryFurnitureItem } from "./IGalleryFurnitureItem";
 import React from "react";
 import { LanguageContext } from "App";

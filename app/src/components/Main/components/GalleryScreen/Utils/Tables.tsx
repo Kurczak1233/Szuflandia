@@ -1,10 +1,10 @@
-import d1 from "images/MainGallery/Tables/01.jpg";
-import d2 from "images/MainGallery/Tables/02.jpg";
-import d3 from "images/MainGallery/Tables/03.jpg";
-import d4 from "images/MainGallery/Tables/04.jpg";
-import d5 from "images/MainGallery/Tables/05.jpg";
-import d6 from "images/MainGallery/Tables/06.jpg";
-import d7 from "images/MainGallery/Tables/07.jpg";
+import d1 from "images/MainGallery/Tables/01.webp";
+import d2 from "images/MainGallery/Tables/02.webp";
+import d3 from "images/MainGallery/Tables/03.webp";
+import d4 from "images/MainGallery/Tables/04.webp";
+import d5 from "images/MainGallery/Tables/05.webp";
+import d6 from "images/MainGallery/Tables/06.webp";
+import d7 from "images/MainGallery/Tables/07.webp";
 import { IGalleryFurnitureItem } from "./IGalleryFurnitureItem";
 import React from "react";
 import { LanguageContext } from "App";
