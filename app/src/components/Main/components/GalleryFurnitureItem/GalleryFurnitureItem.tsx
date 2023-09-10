@@ -1,6 +1,8 @@
 import { IGalleryFurnitureItem } from "../GalleryScreen/Utils/IGalleryFurnitureItem";
 import GalleryItemGreenVector from "images/GalleryItemGreenVector.svg";
 import "./GalleryFurnitureItem.scss";
+import { useEffect, useState } from "react";
+import Modal from "react-modal";
 
 interface IGalleryFurnitureInterface {
   item: IGalleryFurnitureItem;
@@ -8,21 +10,70 @@ interface IGalleryFurnitureInterface {
 }
 
 const GalleryFurnitureItem = ({ item, index }: IGalleryFurnitureInterface) => {
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+  const [currentPicture, setCurrentPicture] = useState<string>("");
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const openModal = (itemPicture: string) => {
+    setIsModalOpen(true);
+    setCurrentPicture(itemPicture);
+  };
+
+  useEffect(() => {
+    document.body.style.overflow = isModalOpen ? "hidden" : "unset";
+  }, [isModalOpen]);
+
   return (
-    <div className="galleryFurnitureItem">
-      <img src={item.img} alt={item.alt} loading="lazy" className="galleryFurnitureItemImage"/>
-      <img
-        src={GalleryItemGreenVector}
-        alt={`Gallery image green vector ${item.title} ${item.sizing}`}
-        width={"100%"}
-        className="galleryFurnitureItemVector"
-      />
-      <div className="galleryFurnitureItemWrapper">
-        <div className="galleryFurnitureItemTitle">{index + 1}. {item.title}</div>
-        <div>{item.sizing}</div>
-        <div>{item.createdUsing}</div>
+    <>
+      {isModalOpen && (
+        <Modal
+          isOpen={isModalOpen}
+          className={"galleryModalContainer"}
+          overlayClassName="galleryModalOverlay"
+          onRequestClose={closeModal}
+          ariaHideApp={false}
+          contentLabel="Furniture Gallery Item Modal"
+        >
+          {isModalOpen && currentPicture && (
+            <div>
+              <div className="galleryAdditionalExit" onClick={closeModal}>
+                X
+              </div>
+              <img
+                src={currentPicture}
+                loading="lazy"
+                className="galleryBigPicture"
+                alt="Big screen centrum siły gallery picture"
+              />
+            </div>
+          )}
+        </Modal>
+      )}
+      <div className="galleryFurnitureItem" onClick={() => openModal(item.img)}>
+        <img
+          src={item.img}
+          alt={item.alt}
+          loading="lazy"
+          className="galleryFurnitureItemImage"
+        />
+        <img
+          src={GalleryItemGreenVector}
+          alt={`Gallery image green vector ${item.title} ${item.sizing}`}
+          width={"100%"}
+          className="galleryFurnitureItemVector"
+        />
+        <div className="galleryFurnitureItemWrapper">
+          <div className="galleryFurnitureItemTitle">
+            {index + 1}. {item.title}
+          </div>
+          <div className="galleryFurnitureItemSizing">{item.sizing}</div>
+          <div>{item.createdUsing}</div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
