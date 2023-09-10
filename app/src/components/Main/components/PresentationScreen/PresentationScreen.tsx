@@ -1,9 +1,9 @@
 import { LanguageContext } from "App";
 import React from "react";
 import styles from "./PresentationScreen.module.scss";
-import FirstPresentationImage from "images/FirstPresentationImage.png";
-import SecondPresentationImage from "images/SecondPresentationImage.png";
-import ThirdPresentationImage from "images/ThirdPresentationImage.png";
+import FirstPresentationImage from "images/FirstPresentationImage.webp";
+import SecondPresentationImage from "images/SecondPresentationImage.webp";
+import ThirdPresentationImage from "images/ThirdPresentationImage.webp";
 import LeftBranch from "images/LeftBranch.svg";
 import RightBranch from "images/RightBranch.svg";
 

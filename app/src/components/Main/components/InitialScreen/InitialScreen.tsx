@@ -1,4 +1,4 @@
-import mainBackground from "images/MainBackground.png";
+import mainBackground from "images/MainBackground.webp";
 import "./InitialScreen.scss";
 import SzuflandiaColorLogo from "images/SzuflandiaColorLogo.svg";
 import { LanguageContext } from "App";

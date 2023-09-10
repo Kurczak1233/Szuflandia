@@ -3,20 +3,20 @@ import { LanguageContext } from "App";
 import ProductsCategoryComponent from "../ProductsCategoryComponent/ProductsCategoryComponent";
 import CabinetLogo from "images/CabinetLogo.svg";
 import CabinetVector from "images/CabinetVector.svg";
-import MobileCabinetsImage from "images/MobileCabinetsImage.png";
-import CabinetImage from "images/CabinetCategoryFurniture.png";
+import MobileCabinetsImage from "images/MobileCabinetsImage.webp";
+import CabinetImage from "images/CabinetCategoryFurniture.webp";
 import TablesLogo from "images/TablesLogo.svg";
 import TablesVector from "images/TablesVector.svg";
-import TablesImage from "images/TablesImage.png";
-import MobileTablesImage from "images/MobileTablesImage.png";
+import TablesImage from "images/TablesImage.webp";
+import MobileTablesImage from "images/MobileTablesImage.webp";
 import OrganizersLogo from "images/OrganizersIcon.svg";
 import OrganizersVector from "images/OrganizersVector.svg";
-import OrganizersImage from "images/OrganizersImage.png";
-import MobileOrganizersImage from "images/MobileOrganizersImage.png";
+import OrganizersImage from "images/OrganizersImage.webp";
+import MobileOrganizersImage from "images/MobileOrganizersImage.webp";
 import ChestsLogo from "images/ChestsLogo.svg";
 import ChestsVector from "images/ChestsVector.svg";
-import ChestsImage from "images/ChestsImage.png";
-import MobileChestsImage from "images/MobileChestsImage.png";
+import ChestsImage from "images/ChestsImage.webp";
+import MobileChestsImage from "images/MobileChestsImage.webp";
 import React from "react";
 
 const WhatWeProduceScreen = () => {
