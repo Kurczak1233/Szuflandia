@@ -36,7 +36,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
     detailsContact: "Contact ",
     detailsDetails: "details:",
     author: "Michał Kupczak ",
-    authorSite: "michalkupczak.com"
+    authorSite: "michalkupczak.com",
   },
   whatWeProduceScreen: {
     cabinetsItem: {
@@ -120,7 +120,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
     },
     drawers: [
       {
-        title: 'Small decorative cupboards',
+        title: "Small decorative cupboards",
         sizing: "",
         createdUsing: "",
       },
@@ -136,8 +136,8 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Glazed cabinets",
-        sizing: "34 Height x 30 Width x 20 Length ", 
-        createdUsing: ""
+        sizing: "34 Height x 30 Width x 20 Length ",
+        createdUsing: "",
       },
       {
         title: "Decorative cabinet",
@@ -152,7 +152,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       {
         title: "Decorative cabinet",
         sizing: "54 Height x 26 Width x 19 Length",
-        createdUsing: ""
+        createdUsing: "",
       },
       {
         title: "Richly decorated large chest of drawers",
@@ -162,52 +162,52 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       {
         title: "Ornamental cabinet",
         sizing: "54 Height x 26 Width x 20 Length",
-        createdUsing: ""
+        createdUsing: "",
       },
       {
         title: "Ornamental cabinet",
         sizing: "52 Height x 34 Width x 24 Length",
-        createdUsing: ""
+        createdUsing: "",
       },
       {
         title: "Narrow decorative cabinet",
         sizing: "43 Height x 15 Width x 12 Length",
-        createdUsing: ""
+        createdUsing: "",
       },
       {
         title: "Decorative cabinet",
         sizing: "54 Height x 26 Width x 19 Length",
-        createdUsing: ""
+        createdUsing: "",
       },
       {
         title: "Ornamental cabinet",
         sizing: "54 Height x 26 Width x 20 Length",
-        createdUsing: ""
+        createdUsing: "",
       },
       {
         title: "Ornamental cabinet",
         sizing: "54 Height x 26 Width x 20 Length",
-        createdUsing: ""
+        createdUsing: "",
       },
       {
         title: "Larger decorative cabinet",
         sizing: "84 Height x 36 Width x 24 Length",
-        createdUsing: ""
+        createdUsing: "",
       },
       {
         title: "Larger decorative cabinet",
         sizing: "75 Height x 36 Width x 27 Length",
-        createdUsing: ""
+        createdUsing: "",
       },
       {
         title: "Larger decorative cabinet",
         sizing: "102 Height x 36 Width x 23 Length",
-        createdUsing: ""
+        createdUsing: "",
       },
       {
         title: "Decorative cabinets",
         sizing: "26 Height x 51 Width x 21 Length",
-        createdUsing: ""
+        createdUsing: "",
       },
       {
         title: "Decorative cupboard",
@@ -221,6 +221,41 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Small decorative cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Large decorative cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Large decorative cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Large dresser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Large dresser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Bigger cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Larger cabinet",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Larger cabinet",
         sizing: "",
         createdUsing: "",
       },
@@ -369,8 +404,193 @@ export const EnglishLanguage: ICommonLanugageInterface = {
         createdUsing: "",
       },
       {
-        title: "Decorative organiser",
+        title: "decorative organizer",
         sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative Organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative Organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative Organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative Organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Large decorative organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Large decorative organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Large decorative organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Large decorative organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Decorative Organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Standing small decorative organizer",
+        sizing: "45 Height x 19 Width x 19 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Standing small decorative organizer",
+        sizing: "45 Height x 19 Width x 19 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Standing small decorative organizer",
+        sizing: "45 Height x 19 Width x 19 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative organizer",
+        sizing: "23 Height x 19 Width x 42 Length",
         createdUsing: "",
       },
     ],
@@ -397,6 +617,11 @@ export const EnglishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Small decorative containers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Glazed box - organiser",
         sizing: "",
         createdUsing: "",
       },

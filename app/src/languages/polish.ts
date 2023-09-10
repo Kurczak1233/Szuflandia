@@ -224,6 +224,41 @@ export const PolishLanguage: ICommonLanugageInterface = {
         sizing: "",
         createdUsing: "",
       },
+      {
+        title: "Duża szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Duża szafka ozdobna",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Duża komoda",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Duża komoda",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Większa szafka",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Większa szafka",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Większa szafka",
+        sizing: "",
+        createdUsing: "",
+      },
     ],
     tables: [
       {
@@ -373,6 +408,191 @@ export const PolishLanguage: ICommonLanugageInterface = {
         sizing: "",
         createdUsing: "",
       },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Duży organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Duży organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Duży organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Duży organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Organizer dekoracyjny",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Stojący mały organizer dekoracyjny",
+        sizing: "45 Wysokość x 19 Szerokość x 19 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Stojący mały organizer dekoracyjny",
+        sizing: "45 Wysokość x 19 Szerokość x 19 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Stojący mały organizer dekoracyjny",
+        sizing: "45 Wysokość x 19 Szerokość x 19 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
+      {
+        title: "Mały organizer dekoracyjny",
+        sizing: "23 Wysokość x 19 Szerokość x 42 Długość",
+        createdUsing: "",
+      },
     ],
     chests: [
       {
@@ -397,6 +617,11 @@ export const PolishLanguage: ICommonLanugageInterface = {
       },
       {
         title: "Skrzynka",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Przeszklona skrzynia - organizer",
         sizing: "",
         createdUsing: "",
       },

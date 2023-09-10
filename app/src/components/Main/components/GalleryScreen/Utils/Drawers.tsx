@@ -19,12 +19,20 @@ import d18 from "images/MainGallery/Drawers/18.webp";
 import d19 from "images/MainGallery/Drawers/19.webp";
 import d20 from "images/MainGallery/Drawers/20.webp";
 import d21 from "images/MainGallery/Drawers/21.webp";
+import d22 from "images/MainGallery/Drawers/22.webp";
+import d23 from "images/MainGallery/Drawers/23.webp";
+import d24 from "images/MainGallery/Drawers/24.webp";
+import d25 from "images/MainGallery/Drawers/25.webp";
+import d26 from "images/MainGallery/Drawers/26.webp";
+import d27 from "images/MainGallery/Drawers/27.webp";
+import d28 from "images/MainGallery/Drawers/28.webp";
 import { IGalleryFurnitureItem } from "./IGalleryFurnitureItem";
 import React from "react";
 import { LanguageContext } from "App";
 
 const Drawers = () => {
   const currentLanguageSheet = React.useContext(LanguageContext);
+
   const Drawers: IGalleryFurnitureItem[] = [
     {
       title: currentLanguageSheet.galleryScreen.drawers[0].title,
@@ -172,6 +180,55 @@ const Drawers = () => {
       createdUsing: currentLanguageSheet.galleryScreen.drawers[20].createdUsing,
       img: d21,
       alt: "Drawer image 021",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.drawers[21].title,
+      sizing: currentLanguageSheet.galleryScreen.drawers[21].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.drawers[21].createdUsing,
+      img: d22,
+      alt: "Drawer image 022",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.drawers[22].title,
+      sizing: currentLanguageSheet.galleryScreen.drawers[22].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.drawers[22].createdUsing,
+      img: d23,
+      alt: "Drawer image 023",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.drawers[23].title,
+      sizing: currentLanguageSheet.galleryScreen.drawers[23].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.drawers[23].createdUsing,
+      img: d24,
+      alt: "Drawer image 024",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.drawers[24].title,
+      sizing: currentLanguageSheet.galleryScreen.drawers[24].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.drawers[24].createdUsing,
+      img: d25,
+      alt: "Drawer image 025",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.drawers[25].title,
+      sizing: currentLanguageSheet.galleryScreen.drawers[25].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.drawers[25].createdUsing,
+      img: d26,
+      alt: "Drawer image 026",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.drawers[26].title,
+      sizing: currentLanguageSheet.galleryScreen.drawers[26].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.drawers[26].createdUsing,
+      img: d27,
+      alt: "Drawer image 027",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.drawers[27].title,
+      sizing: currentLanguageSheet.galleryScreen.drawers[27].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.drawers[27].createdUsing,
+      img: d28,
+      alt: "Drawer image 028",
     },
   ];
 

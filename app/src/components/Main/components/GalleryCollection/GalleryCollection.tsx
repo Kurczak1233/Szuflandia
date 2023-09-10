@@ -14,13 +14,13 @@ const GalleryCollection = ({
   closeItem,
   itemsCollection,
 }: IGalleryCollection) => {
-  const [numberOfItemsToShow, setNumberOfItemsToShow] = useState<number>(6);
+  const [numberOfItemsToShow, setNumberOfItemsToShow] = useState<number>(12);
   const currentLanguageSheet = React.useContext(LanguageContext);
 
   const updateNumberOfItems = () => {
     setNumberOfItemsToShow((oldValue) => {
       if (oldValue < itemsCollection.length) {
-        return oldValue + 6;
+        return oldValue + 12;
       } else {
         return oldValue;
       }
