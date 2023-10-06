@@ -630,6 +630,11 @@ export const EnglishLanguage: ICommonLanugageInterface = {
         sizing: "",
         createdUsing: "",
       },
+      {
+        title: "Cases - music boxes",
+        sizing: "",
+        createdUsing: "They have a built-in music box",
+      },
     ],
   },
 };

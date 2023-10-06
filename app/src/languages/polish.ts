@@ -630,6 +630,12 @@ export const PolishLanguage: ICommonLanugageInterface = {
         sizing: "",
         createdUsing: "",
       },
+      {
+        title: "Skrzyneczki - pozytywki",
+        sizing: "",
+        createdUsing: "Mają wbudowana pozytywkę",
+      },
+      
     ],
   },
 };

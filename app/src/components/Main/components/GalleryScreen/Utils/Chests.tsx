@@ -5,6 +5,7 @@ import d4 from "images/MainGallery/Chests/04.webp";
 import d7 from "images/MainGallery/Chests/07.webp";
 import d8 from "images/MainGallery/Chests/08.webp";
 import d9 from "images/MainGallery/Chests/09.webp";
+import d10 from "images/MainGallery/Chests/10.webp";
 import { IGalleryFurnitureItem } from "./IGalleryFurnitureItem";
 import React from "react";
 import { LanguageContext } from "App";
@@ -60,6 +61,13 @@ const Chests = () => {
       createdUsing: currentLanguageSheet.galleryScreen.chests[6].createdUsing,
       img: d9,
       alt: "Chest image 09",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.chests[7].title,
+      sizing: currentLanguageSheet.galleryScreen.chests[7].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.chests[7].createdUsing,
+      img: d10,
+      alt: "Chest image 10",
     },
   ];
 
