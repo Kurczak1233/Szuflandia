@@ -4,6 +4,7 @@ export interface ICommonLanugageInterface {
   presentationScreen: ICommonLanguagePresentation;
   whatWeProduceScreen: ICommonLanguageProduction;
   galleryScreen: ICommonLanguageGallery;
+  shippingScreen: ICommonLanguageShipping;
   footer: ICommonLanguageFooter;
 }
 
@@ -93,4 +94,13 @@ interface IDrawerItem {
   title: string;
   sizing: string;
   createdUsing: string;
+}
+interface ICommonLanguageShipping {
+  shippingTitle: string;
+  contact: string;
+  contactDesc: string;
+  details: string;
+  detailsDesc: string;
+  agreement: string;
+  agreementDesc: string;
 }

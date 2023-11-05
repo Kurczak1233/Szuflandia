@@ -179,3 +179,8 @@
     padding-top: 32px;
   }
 }
+@media (max-width: $sm) {
+  .presentetionScreen {
+    margin: 0;
+  }
+}

@@ -131,7 +131,16 @@
   .button {
     font-size: 12px;
   }
+  .itemWrapper {
+    margin: 0;
+  }
+  .detailsPart {
+    margin-top: 64px;
+  }
   .productCategoryLogo {
     scale: 0.7
+  }
+  .borderBottom {
+    margin: 40px 0;
   }
 }

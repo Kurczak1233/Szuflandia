@@ -1,6 +1,7 @@
 import GalleryScreen from "./components/GalleryScreen/GalleryScreen";
 import InitialScreen from "./components/InitialScreen/InitialScreen";
 import PresentationScreen from "./components/PresentationScreen/PresentationScreen";
+import ShippingScreen from "./components/ShippingScreen/ShippingScreen";
 import WhatWeProduceScreen from "./components/WhatWeProduceScreen/WhatWeProduceScreen";
 import styles from "./Main.module.scss";
 const Main = () => {
@@ -10,6 +11,7 @@ const Main = () => {
       <WhatWeProduceScreen />
       <PresentationScreen />
       <GalleryScreen />
+      <ShippingScreen />
     </main>
   );
 };
