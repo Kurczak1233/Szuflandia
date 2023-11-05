@@ -326,6 +326,16 @@ export const PolishLanguage: ICommonLanugageInterface = {
         sizing: "",
         createdUsing: "",
       },
+      {
+        title: "Plansza szachowa",
+        sizing: "",
+        createdUsing: "Na sprzedaż wraz z szachami",
+      },
+      {
+        title: "Plansza szachowa",
+        sizing: "",
+        createdUsing: "Na sprzedaż wraz z szachami",
+      },
     ],
     organizers: [
       {
@@ -665,7 +675,56 @@ export const PolishLanguage: ICommonLanugageInterface = {
         sizing: "",
         createdUsing: "Mają wbudowana pozytywkę",
       },
-      
+      {
+        title: "Ozdobne pojemniki foremne",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ozdobne pojemniki foremne",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ozdobne pojemniki foremne",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Ozdobne pojemniki foremne",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Przeszklona skrzynia - organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Przeszklona skrzynia - organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Przeszklona skrzynia - organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Przeszklona skrzynia - organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Przeszklona skrzynia - organizer",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Przeszklona skrzynia - organizer",
+        sizing: "",
+        createdUsing: "",
+      },
     ],
   },
 };

@@ -326,6 +326,16 @@ export const EnglishLanguage: ICommonLanugageInterface = {
         sizing: "",
         createdUsing: "",
       },
+      {
+        title: "Chess board",
+        sizing: "",
+        createdUsing: "Available with figures",
+      },
+      {
+        title: "Chess board",
+        sizing: "",
+        createdUsing: "Available with figures",
+      },
     ],
     organizers: [
       {
@@ -664,6 +674,56 @@ export const EnglishLanguage: ICommonLanugageInterface = {
         title: "Cases - music boxes",
         sizing: "",
         createdUsing: "They have a built-in music box",
+      },
+      {
+        title: "Small decorative containers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative containers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative containers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Small decorative containers",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Glazed box - organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Glazed box - organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Glazed box - organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Glazed box - organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Glazed box - organiser",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Glazed box - organiser",
+        sizing: "",
+        createdUsing: "",
       },
     ],
   },
