@@ -296,6 +296,36 @@ export const EnglishLanguage: ICommonLanugageInterface = {
         sizing: "",
         createdUsing: "",
       },
+      {
+        title: "Chess board",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Chess board",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Chess board",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Chess board",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Chess board",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Chess board",
+        sizing: "",
+        createdUsing: "",
+      },
     ],
     organizers: [
       {

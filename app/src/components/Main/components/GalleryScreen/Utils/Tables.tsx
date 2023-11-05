@@ -5,6 +5,12 @@ import d4 from "images/MainGallery/Tables/04.webp";
 import d5 from "images/MainGallery/Tables/05.webp";
 import d6 from "images/MainGallery/Tables/06.webp";
 import d7 from "images/MainGallery/Tables/07.webp";
+import d8 from "images/MainGallery/Tables/08.webp";
+import d9 from "images/MainGallery/Tables/09.webp";
+import d10 from "images/MainGallery/Tables/10.webp";
+import d11 from "images/MainGallery/Tables/11.webp";
+import d12 from "images/MainGallery/Tables/12.webp";
+import d13 from "images/MainGallery/Tables/13.webp";
 import { IGalleryFurnitureItem } from "./IGalleryFurnitureItem";
 import React from "react";
 import { LanguageContext } from "App";
@@ -60,6 +66,48 @@ const Tables = () => {
       createdUsing: currentLanguageSheet.galleryScreen.tables[6].createdUsing,
       img: d7,
       alt: "Table image 07",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.tables[7].title,
+      sizing: currentLanguageSheet.galleryScreen.tables[7].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.tables[7].createdUsing,
+      img: d8,
+      alt: "Table image 08",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.tables[8].title,
+      sizing: currentLanguageSheet.galleryScreen.tables[8].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.tables[8].createdUsing,
+      img: d9,
+      alt: "Table image 09",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.tables[9].title,
+      sizing: currentLanguageSheet.galleryScreen.tables[9].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.tables[9].createdUsing,
+      img: d10,
+      alt: "Table image 010",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.tables[10].title,
+      sizing: currentLanguageSheet.galleryScreen.tables[10].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.tables[10].createdUsing,
+      img: d11,
+      alt: "Table image 11",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.tables[11].title,
+      sizing: currentLanguageSheet.galleryScreen.tables[11].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.tables[11].createdUsing,
+      img: d12,
+      alt: "Table image 12",
+    },
+    {
+      title: currentLanguageSheet.galleryScreen.tables[12].title,
+      sizing: currentLanguageSheet.galleryScreen.tables[12].sizing,
+      createdUsing: currentLanguageSheet.galleryScreen.tables[12].createdUsing,
+      img: d13,
+      alt: "Table image 13",
     },
   ];
 

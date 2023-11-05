@@ -296,6 +296,36 @@ export const PolishLanguage: ICommonLanugageInterface = {
         sizing: "",
         createdUsing: "",
       },
+      {
+        title: "Plansza szachowa",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Plansza szachowa",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Plansza szachowa",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Plansza szachowa",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Plansza szachowa",
+        sizing: "",
+        createdUsing: "",
+      },
+      {
+        title: "Plansza szachowa",
+        sizing: "",
+        createdUsing: "",
+      },
     ],
     organizers: [
       {
