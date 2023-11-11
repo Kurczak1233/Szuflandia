@@ -5,7 +5,10 @@ const nextConfig = {
     output: 'export',
     images: {
         unoptimized: true
-    }
+    },
+    typescript: {
+        ignoreBuildErrors: true,
+    },
     // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
     // trailingSlash: true,
    

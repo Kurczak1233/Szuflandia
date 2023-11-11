@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useRef, useState } from "react";
 
 const useClickedOutsideElement = () => {
@@ -13,10 +12,8 @@ const useClickedOutsideElement = () => {
   const handleClickOutside = (e: { target: any }) => {
     if (
       menuRef.current &&
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       //@ts-ignore
       !menuRef.current.contains(e.target) &&
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       //@ts-ignore
       !menuBtnRef.current.contains(e.target)
     ) {
