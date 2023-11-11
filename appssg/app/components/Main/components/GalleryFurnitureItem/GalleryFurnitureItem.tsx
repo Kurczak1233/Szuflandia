@@ -1,9 +1,8 @@
 import { IGalleryFurnitureItem } from "../GalleryScreen/Utils/IGalleryFurnitureItem";
-import GalleryItemGreenVector from "images/GalleryItemGreenVector.svg";
 import "./GalleryFurnitureItem.scss";
 import { useEffect, useState } from "react";
 import Modal from "react-modal";
-import Image from "next/image"
+import Image from "next/image";
 
 interface IGalleryFurnitureInterface {
   item: IGalleryFurnitureItem;
@@ -27,6 +26,8 @@ const GalleryFurnitureItem = ({ item, index }: IGalleryFurnitureInterface) => {
     document.body.style.overflow = isModalOpen ? "hidden" : "unset";
   }, [isModalOpen]);
 
+  //@ts-ignore;
+  const imageIsVertical = item.img.default.height === 678;
   return (
     <>
       {isModalOpen && (
@@ -47,7 +48,9 @@ const GalleryFurnitureItem = ({ item, index }: IGalleryFurnitureInterface) => {
                 src={currentPicture}
                 loading="lazy"
                 className="galleryBigPicture"
-                alt="Big screen centrum siły gallery picture"
+                alt="Gallery furniture picture"
+                width={1920}
+                height={1280}
               />
             </div>
           )}
@@ -58,11 +61,15 @@ const GalleryFurnitureItem = ({ item, index }: IGalleryFurnitureInterface) => {
           src={item.img}
           alt={item.alt}
           loading="lazy"
+          width={imageIsVertical ? 370 : 170}
+          height={244}
           className="galleryFurnitureItemImage"
         />
         <Image
-          src={GalleryItemGreenVector}
+          src="/GalleryItemGreenVector.svg"
           alt={`Gallery image green vector ${item.title} ${item.sizing}`}
+          width={370}
+          height={47}
           className="galleryFurnitureItemVector"
         />
         <div className="galleryFurnitureItemWrapper">

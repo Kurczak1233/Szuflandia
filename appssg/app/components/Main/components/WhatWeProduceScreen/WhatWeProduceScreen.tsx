@@ -1,22 +1,6 @@
 import styles from "./WhatWeProduceScreen.module.scss";
 import { LanguageContext } from "page";
 import ProductsCategoryComponent from "../ProductsCategoryComponent/ProductsCategoryComponent";
-import CabinetLogo from "images/CabinetLogo.svg";
-import CabinetVector from "images/CabinetVector.svg";
-import MobileCabinetsImage from "images/MobileCabinetsImage.webp";
-import CabinetImage from "images/CabinetCategoryFurniture.webp";
-import TablesLogo from "images/TablesLogo.svg";
-import TablesVector from "images/TablesVector.svg";
-import TablesImage from "images/TablesImage.webp";
-import MobileTablesImage from "images/MobileTablesImage.webp";
-import OrganizersLogo from "images/OrganizersIcon.svg";
-import OrganizersVector from "images/OrganizersVector.svg";
-import OrganizersImage from "images/OrganizersImage.webp";
-import MobileOrganizersImage from "images/MobileOrganizersImage.webp";
-import ChestsLogo from "images/ChestsLogo.svg";
-import ChestsVector from "images/ChestsVector.svg";
-import ChestsImage from "images/ChestsImage.webp";
-import MobileChestsImage from "images/MobileChestsImage.webp";
 import React from "react";
 
 const WhatWeProduceScreen = () => {
@@ -30,7 +14,7 @@ const WhatWeProduceScreen = () => {
         {currentLanguageSheet.whatWeProduceScreen.weProduceText}
       </div>
       <ProductsCategoryComponent
-        categoryLogo={CabinetLogo}
+        categoryLogo="/CabinetLogo.svg"
         categoryTitle={
           currentLanguageSheet.whatWeProduceScreen.cabinetsItem.categoryTitle
         }
@@ -42,13 +26,15 @@ const WhatWeProduceScreen = () => {
           currentLanguageSheet.whatWeProduceScreen.cabinetsItem
             .categoryTraitsButtons
         }
-        mainImage={CabinetImage}
-        backgroundVector={CabinetVector}
+        mainImage="/CabinetCategoryFurniture.webp"
+        backgroundVector="/CabinetVector.svg"
         marginLeft="40px"
-        mainMobileImage={MobileCabinetsImage}
+        mainMobileImage="/MobileCabinetsImage.webp"
+        backVectorWidth={224}
+        backVectorHeight={653}
       />
       <ProductsCategoryComponent
-        categoryLogo={TablesLogo}
+        categoryLogo="/TablesLogo.svg"
         categoryTitle={
           currentLanguageSheet.whatWeProduceScreen.tablesItem.categoryTitle
         }
@@ -60,14 +46,16 @@ const WhatWeProduceScreen = () => {
           currentLanguageSheet.whatWeProduceScreen.tablesItem
             .categoryTraitsButtons
         }
-        mainImage={TablesImage}
-        backgroundVector={TablesVector}
+        mainImage="/TablesImage.webp"
+        backgroundVector="/TablesVector.svg"
         marginRight="40px"
         reversePositioning
-        mainMobileImage={MobileTablesImage}
+        mainMobileImage="/MobileTablesImage.webp"
+        backVectorWidth={192}
+        backVectorHeight={653}
       />
       <ProductsCategoryComponent
-        categoryLogo={OrganizersLogo}
+        categoryLogo="/OrganizersIcon.svg"
         categoryTitle={
           currentLanguageSheet.whatWeProduceScreen.organizersItem.categoryTitle
         }
@@ -79,13 +67,15 @@ const WhatWeProduceScreen = () => {
           currentLanguageSheet.whatWeProduceScreen.organizersItem
             .categoryTraitsButtons
         }
-        mainImage={OrganizersImage}
-        backgroundVector={OrganizersVector}
+        mainImage="/OrganizersImage.webp"
+        backgroundVector="/OrganizersVector.svg"
         marginLeft="40px"
-        mainMobileImage={MobileOrganizersImage}
+        mainMobileImage="/MobileOrganizersImage.webp"
+        backVectorWidth={146}
+        backVectorHeight={686}
       />
       <ProductsCategoryComponent
-        categoryLogo={ChestsLogo}
+        categoryLogo="/ChestsLogo.svg"
         categoryTitle={
           currentLanguageSheet.whatWeProduceScreen.chestsItem.categoryTitle
         }
@@ -97,11 +87,13 @@ const WhatWeProduceScreen = () => {
           currentLanguageSheet.whatWeProduceScreen.chestsItem
             .categoryTraitsButtons
         }
-        mainImage={ChestsImage}
-        backgroundVector={ChestsVector}
+        mainImage="/ChestsImage.webp"
+        backgroundVector="/ChestsVector.svg"
         marginRight="40px"
         reversePositioning
-        mainMobileImage={MobileChestsImage}
+        mainMobileImage="/MobileChestsImage.webp"
+        backVectorWidth={192}
+        backVectorHeight={629}
       />
     </div>
   );

@@ -1,5 +1,4 @@
 import "./Header.scss";
-import Logo from "../../images/Logo.svg";
 import MenuSelection from "./components/MenuSelection/MenuSelection";
 import { LanguageEnum } from "page";
 import { useEffect, useRef, useState } from "react";
@@ -37,7 +36,7 @@ const Header = ({ setLanguageToChosenOption }: IHeader) => {
       } topHeaderItem`}
       ref={navigationRef}
     >
-      <Image src={Logo} alt="Szuflandia logo" className="szuflandiaLogo" />
+      <Image src="/Logo.svg" alt="Szuflandia logo" className="szuflandiaLogo" width={256} height={62} />
       <MenuSelection setLanguageToChosenOption={setLanguageToChosenOption} headerVisible={headerVisible} />
     </div>
   );

@@ -15,10 +15,10 @@ const Drawers = () => {
 
   const images = importAll(
     // @ts-ignore
-    require.context("images/MainGallery/Drawers", false, /\.(webp)$/)
+    require.context("../../../../../../public/MainGallery/Drawers", false, /\.(webp)$/)
   );
 
-  const Drawers: IGalleryFurnitureItem[] = Object.keys(images).filter(item => !item.includes("images/MainGallery")).map((key, index) => ({
+  const Drawers: IGalleryFurnitureItem[] = Object.keys(images).filter(item => !item.includes("/MainGallery")).map((key, index) => ({
     title: currentLanguageSheet.galleryScreen.drawers[index].title,
     sizing: currentLanguageSheet.galleryScreen.drawers[index].sizing,
     createdUsing: currentLanguageSheet.galleryScreen.drawers[index].createdUsing,

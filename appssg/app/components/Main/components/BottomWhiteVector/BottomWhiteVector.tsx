@@ -1,4 +1,3 @@
-import VectorMiddlePart from "images/VectorMiddlePart.svg";
 import styles from "./BottomWhiteVector.module.scss";
 import { useEffect, useState } from "react";
 import Image from "next/image"
@@ -30,7 +29,7 @@ const BottomWhiteVector = () => {
         style={{ width: `calc(${100 - bigComponentWidth - 10}% - 184px)` }}
       ></div>
       <Image
-        src={VectorMiddlePart}
+        src="/VectorMiddlePart.svg"
         alt="Movable hidding vector"
         width={184}
         height={104}

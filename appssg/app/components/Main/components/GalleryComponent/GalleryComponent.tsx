@@ -4,13 +4,13 @@ import GalleryCollection from "../GalleryCollection/GalleryCollection";
 import { IGalleryFurnitureItem } from "../GalleryScreen/Utils/IGalleryFurnitureItem";
 import { LanguageContext } from "page";
 import React from "react";
-import Image, { StaticImageData } from "next/image"
+import Image from "next/image"
 
 interface IGalleryComponent {
   title: string;
   icon: string;
   description: string[];
-  hoverImage: StaticImageData;
+  hoverImage: string;
   itemsCollection: IGalleryFurnitureItem[];
   noBorderBottom?: boolean;
   topCorner?: boolean;
@@ -71,6 +71,7 @@ const GalleryComponent = ({
               borderBottomLeftRadius: bottomCorner ? "25px" : 0,
             }}
             alt={`Szuflandia gallery item image: ${title}`}
+            width={212}
             height={140}
           ></Image>
           <div className="galleryComponentMobileButtonWrapper">
@@ -84,7 +85,8 @@ const GalleryComponent = ({
           <Image
             src={icon}
             alt={`Szuflandia gallery item: ${title}`}
-            width={125}
+            width={206}
+            height={159}
             className="galleryComponentIcon"
           ></Image>
           <div className="galleryDescriptionItemsWrapper">

@@ -1,11 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import { LanguageContext } from "page";
 import React from "react";
 import styles from "./PresentationScreen.module.scss";
-import FirstPresentationImage from "images/FirstPresentationImage.webp";
-import SecondPresentationImage from "images/SecondPresentationImage.webp";
-import ThirdPresentationImage from "images/ThirdPresentationImage.webp";
-import LeftBranch from "images/LeftBranch.svg";
-import RightBranch from "images/RightBranch.svg";
 import Image from "next/image";
 
 const PresentationScreen = () => {
@@ -13,7 +9,12 @@ const PresentationScreen = () => {
   return (
     <main className={styles.main}>
       <div className={styles.leftBranchWrapper}>
-        <Image src={RightBranch} alt={"Right branch"} />
+        <Image
+          src="/RightBranch.svg"
+          alt={"Right branch"}
+          width={712}
+          height={344}
+        />
       </div>
       <section className={styles.presentetionScreen}>
         <div className={styles.uniqueFurnitureComponent}>
@@ -33,24 +34,21 @@ const PresentationScreen = () => {
             {currentLanguageSheet.presentationScreen.description}
           </div>
           <div className={styles.imagesWrapper}>
-            <Image
+            <img
               className={styles.firstImage}
-              src={FirstPresentationImage}
-              width={400}
+              src="/FirstPresentationImage.webp"
               alt="First unique szuflandia furniture presentation"
-            ></Image>
-            <Image
+            />
+            <img
               className={styles.secondImage}
-              src={SecondPresentationImage}
-              width={400}
+              src="/SecondPresentationImage.webp"
               alt="Second unique szuflandia furniture presentation"
-            ></Image>
-            <Image
+            ></img>
+            <img
               className={styles.thirdImage}
-              src={ThirdPresentationImage}
-              width={400}
+              src="/ThirdPresentationImage.webp"
               alt="Third unique szuflandia furniture presentation"
-            ></Image>
+            ></img>
           </div>
           <div className={styles.descriptionSecondPart}>
             {currentLanguageSheet.presentationScreen.descriptionSecondPart}
@@ -58,7 +56,12 @@ const PresentationScreen = () => {
         </div>
       </section>
       <div className={styles.rightBranchWrapper}>
-        <Image src={LeftBranch} alt={"Left branch"} />
+        <Image
+          src="/LeftBranch.svg"
+          alt={"Left branch"}
+          width={1081}
+          height={451}
+        />
       </div>
     </main>
   );

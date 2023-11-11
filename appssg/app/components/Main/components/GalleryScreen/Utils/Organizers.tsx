@@ -15,9 +15,9 @@ const Organizers = () => {
 
   const images = importAll(
     // @ts-ignore
-    require.context("images/MainGallery/Organizers", false, /\.(webp)$/)
+    require.context("../../../../../../public/MainGallery/Organizers", false, /\.(webp)$/)
   );
-  const Organizers: IGalleryFurnitureItem[] = Object.keys(images).filter(item => !item.includes("images/MainGallery")).map((key, index) => ({
+  const Organizers: IGalleryFurnitureItem[] = Object.keys(images).filter(item => !item.includes("/MainGallery")).map((key, index) => ({
     title: currentLanguageSheet.galleryScreen.organizers[index].title,
     sizing: currentLanguageSheet.galleryScreen.organizers[index].sizing,
     createdUsing: currentLanguageSheet.galleryScreen.organizers[index].createdUsing,

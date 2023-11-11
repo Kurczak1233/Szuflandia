@@ -3,11 +3,7 @@ import { LanguageContext, LanguageEnum } from "page";
 import MenuFlag from "../MenuFlag/MenuFlag";
 import MenuItem from "../MenuItem/MenuItem";
 import styles from "./MenuSelection.module.scss";
-import PolishFlag from "images/PolandFlag.svg";
-import EnglishFlag from "images/EnglishFlag.svg";
 import React, { useEffect } from "react";
-import BurgerMenuInactive from "images/BurgerMenuInactive.svg";
-import BurgerMenuActive from "images/BurgerMenuActive.svg";
 import useClickedOutsideElement from "hooks/useClickedOutsideElement";
 import MobileMenuItem from "../MobileMenuItem/MobileMenuItem";
 import Image from "next/image"
@@ -69,12 +65,12 @@ const MenuSelection = ({
         <MenuFlag
           setLanguageToChosenOption={setLanguageToChosenOption}
           option={LanguageEnum.Polish}
-          flagSrc={PolishFlag}
+          flagSrc="/PolandFlag.svg"
         />
         <MenuFlag
           setLanguageToChosenOption={setLanguageToChosenOption}
           option={LanguageEnum.English}
-          flagSrc={EnglishFlag}
+          flagSrc="/EnglishFlag.svg"
           isLastFlag
         />
       </div>
@@ -86,10 +82,11 @@ const MenuSelection = ({
           onClick={() => handleDropdown(!isDropdownOpen)}
           src={
             isDropdownOpen && headerVisible
-              ? BurgerMenuActive
-              : BurgerMenuInactive
+              ? "/BurgerMenuActive.svg"
+              : "/BurgerMenuInactive.svg"
           }
           height={35}
+          width={50}
           alt="Szuflandia menu"
         />
         <div
@@ -138,7 +135,7 @@ const MenuSelection = ({
             style={{
               top: "216px",
               right: isDropdownOpen && headerVisible ? "0px" : "-300px",
-              width: "240px",
+              width: "220px",
               transition: "all 1s",
             }}
           >
@@ -149,7 +146,7 @@ const MenuSelection = ({
               <MenuFlag
                 setLanguageToChosenOption={setLanguageToChosenOption}
                 option={LanguageEnum.English}
-                flagSrc={EnglishFlag}
+                flagSrc="/EnglishFlag.svg"
               />
             </div>
             <div
@@ -159,7 +156,7 @@ const MenuSelection = ({
               <MenuFlag
                 setLanguageToChosenOption={setLanguageToChosenOption}
                 option={LanguageEnum.Polish}
-                flagSrc={PolishFlag}
+                flagSrc="/PolandFlag.svg"
               />
             </div>
           </div>

@@ -1,4 +1,3 @@
-import VectorMiddlePart from "images/VectorMiddlePart.svg";
 import styles from "./WhiteVector.module.scss";
 import { useEffect, useState } from "react";
 import Image from "next/image";
@@ -26,7 +25,7 @@ const WhiteVector = () => {
         className={styles.whiteVectorBigPart}
         style={{ width: `calc(${100 - bigComponentWidth - 10}% - 184px)` }}
       ></div>
-      <Image src={VectorMiddlePart} alt="Movable hidding vector" width={184} height={104}></Image>
+      <Image src="/VectorMiddlePart.svg" alt="Movable hidding vector" width={184} height={104}></Image>
       <div
         className={styles.whiteVectorSmallPart}
         style={{ width: `calc(${bigComponentWidth + 10}%)` }}

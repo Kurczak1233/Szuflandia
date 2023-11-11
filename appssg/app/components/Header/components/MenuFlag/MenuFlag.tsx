@@ -20,6 +20,7 @@ const MenuFlag = ({
       style={{ marginRight: isLastFlag ? "0px" : "8px" }}
       className={styles.flag}
       src={flagSrc}
+      width={32} height={25}
       onClick={() => setLanguageToChosenOption(option)}
       alt={option.toString()}
     ></Image>

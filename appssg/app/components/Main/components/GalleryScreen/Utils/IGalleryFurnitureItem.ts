@@ -4,4 +4,5 @@ export interface IGalleryFurnitureItem {
   createdUsing: string;
   img: string;
   alt: string;
+  invImage?: boolean;
 }

@@ -1,6 +1,4 @@
-import mainBackground from "images/MainBackground.webp";
 import "./InitialScreen.scss";
-import SzuflandiaColorLogo from "images/SzuflandiaColorLogo.svg";
 import { LanguageContext } from "page";
 import React from "react";
 import GreenSeparatorBar from "../GreenSeparatorBar/GreenSeparatorBar";
@@ -56,7 +54,7 @@ const InitialScreen = () => {
             </div>
           </div>
           <Image
-            src={SzuflandiaColorLogo}
+            src="/SzuflandiaColorLogo.svg"
             alt="Szuflandia logo item"
             className="initialScreenSzuflandiaLogo"
             width={151}
@@ -67,9 +65,10 @@ const InitialScreen = () => {
       </div>
       <Image
         className="initialScreenImage"
-        src={mainBackground}
+        src="/MainBackground.webp"
         alt="Szuflandia main background"
         height={1080}
+        width={1920}
       ></Image>
       <WhiteVector />
     </>

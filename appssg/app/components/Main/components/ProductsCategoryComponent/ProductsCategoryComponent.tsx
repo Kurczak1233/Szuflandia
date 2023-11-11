@@ -1,17 +1,20 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "./ProductsCategoryComponent.module.scss";
 import Image, { StaticImageData } from "next/image";
 
 interface IProductsCategoryComponent {
-  categoryLogo: StaticImageData;
+  categoryLogo: string;
   categoryTitle: string;
   categoryDescription: string;
   categoriesButtons: string[];
-  mainImage: StaticImageData;
-  mainMobileImage: StaticImageData;
+  mainImage: string;
+  mainMobileImage: string;
   backgroundVector: string;
   marginLeft?: string;
   marginRight?: string;
   reversePositioning?: boolean;
+  backVectorWidth: number;
+  backVectorHeight: number;
 }
 
 const ProductsCategoryComponent = ({
@@ -25,6 +28,8 @@ const ProductsCategoryComponent = ({
   marginLeft,
   marginRight,
   reversePositioning,
+  backVectorWidth,
+  backVectorHeight,
 }: IProductsCategoryComponent) => {
   const itemsButtons = () => {
     return categoriesButtons.map((item) => (
@@ -46,6 +51,8 @@ const ProductsCategoryComponent = ({
               marginRight: marginRight,
               height: "100%",
             }}
+            width={backVectorWidth}
+            height={backVectorHeight}
             alt={`Background vector ${categoryTitle}`}
           ></Image>
         )}
@@ -58,12 +65,18 @@ const ProductsCategoryComponent = ({
             }}
           >
             <div className={styles.detailsPart}>
-              <Image src={categoryLogo} className={styles.productCategoryLogo} alt={`Szuflandia ${categoryLogo} logo`} />
+              <Image
+                src={categoryLogo}
+                width={206}
+                height={159}
+                className={styles.productCategoryLogo}
+                alt={`Szuflandia ${categoryLogo} logo`}
+              />
               <h2 className={styles.cardTitle}>{categoryTitle}</h2>
               <div className={styles.cardDescription}>
                 {categoryDescription}
               </div>
-              <Image
+              <img
                 src={mainMobileImage}
                 alt={`Szuflandia ${categoryLogo} image`}
                 className={styles.mobileCardMainImage}
@@ -72,6 +85,8 @@ const ProductsCategoryComponent = ({
             </div>
             <Image
               src={mainImage}
+              width={775}
+              height={514}
               alt={`Szuflandia ${categoryLogo} image`}
               className={styles.cardMainImage}
             />
@@ -89,6 +104,8 @@ const ProductsCategoryComponent = ({
               marginRight: marginRight,
               height: "100%",
             }}
+            width={backVectorWidth}
+            height={backVectorHeight}
             alt={`Background vector ${categoryTitle}`}
           ></Image>
         )}

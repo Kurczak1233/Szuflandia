@@ -81,12 +81,14 @@
 .cardMainImage {
   border-radius: 26px;
   height: 100%;
+  width: auto;
 }
 .topHeightEmptySpace {
   width: 50%;
 }
 .mobileCardMainImage {
   display: none;
+  width: auto;
 }
 @media (max-width: $xxl) {
   .itemWrapper {

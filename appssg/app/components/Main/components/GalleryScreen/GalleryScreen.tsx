@@ -2,14 +2,6 @@ import React from "react";
 import GalleryComponent from "../GalleryComponent/GalleryComponent";
 import { LanguageContext } from "page";
 import styles from "./GalleryScreen.module.scss";
-import CabinetLogo from "images/CabinetLogo.svg";
-import TablesLogo from "images/TablesLogo.svg";
-import OrganizersLogo from "images/OrganizersIcon.svg";
-import ChestsLogo from "images/ChestsLogo.svg";
-import DrawerImage from "images/DrawersGalleryImage.webp";
-import ChestsImage from "images/ChestsGalleryImage.webp";
-import TablesImage from "images/TablesGalleryImage.webp";
-import OrganizersImage from "images/OrganizersGalleryImage.webp";
 import DrawersComponent from "./Utils/Drawers";
 import TablesComponent from "./Utils/Tables";
 import OrganizersComponent from "./Utils/Organizers";
@@ -50,9 +42,9 @@ const GalleryScreen = () => {
             description={
               currentLanguageSheet.galleryScreen.galleryItems[0].description
             }
-            icon={CabinetLogo}
+            icon="/CabinetLogo.svg"
             itemsCollection={Drawers}
-            hoverImage={DrawerImage}
+            hoverImage="/DrawersGalleryImage.webp"
             topCorner
           />
           <GalleryComponent
@@ -60,18 +52,18 @@ const GalleryScreen = () => {
             description={
               currentLanguageSheet.galleryScreen.galleryItems[1].description
             }
-            icon={TablesLogo}
+            icon="/TablesLogo.svg"
             itemsCollection={Tables}
-            hoverImage={TablesImage}
+            hoverImage="/TablesGalleryImage.webp"
           />
           <GalleryComponent
             title={currentLanguageSheet.galleryScreen.galleryItems[2].title}
             description={
               currentLanguageSheet.galleryScreen.galleryItems[2].description
             }
-            icon={OrganizersLogo}
+            icon="/OrganizersIcon.svg"
             itemsCollection={Organizers}
-            hoverImage={OrganizersImage}
+            hoverImage="/OrganizersGalleryImage.webp"
           />
           <GalleryComponent
             title={currentLanguageSheet.galleryScreen.galleryItems[3].title}
@@ -79,9 +71,9 @@ const GalleryScreen = () => {
               currentLanguageSheet.galleryScreen.galleryItems[3].description
             }
             itemsCollection={Chests}
-            icon={ChestsLogo}
+            icon="/ChestsLogo.svg"
             noBorderBottom
-            hoverImage={ChestsImage}
+            hoverImage="/ChestsGalleryImage.webp"
             bottomCorner
           />
         </div>

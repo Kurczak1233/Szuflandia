@@ -14,9 +14,9 @@ const Tables = () => {
 
   const images = importAll(
     // @ts-ignore
-    require.context("images/MainGallery/Tables", false, /\.(webp)$/)
+    require.context("../../../../../../public/MainGallery/Tables", false, /\.(webp)$/)
   );
-  const Tables: IGalleryFurnitureItem[] = Object.keys(images).filter(item => !item.includes("images/MainGallery")).map((key, index) => ({
+  const Tables: IGalleryFurnitureItem[] = Object.keys(images).filter(item => !item.includes("/MainGallery")).map((key, index) => ({
     title: currentLanguageSheet.galleryScreen.tables[index].title,
     sizing: currentLanguageSheet.galleryScreen.tables[index].sizing,
     createdUsing: currentLanguageSheet.galleryScreen.tables[index].createdUsing,
