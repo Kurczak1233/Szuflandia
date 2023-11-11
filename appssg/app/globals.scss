@@ -1,3 +1,6 @@
+@import "commonStyles/commonStyles.scss";
+@import "animate.css";
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -87,12 +90,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: $app-background;
 }
 
 a {
@@ -104,4 +102,37 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+// Selection
+::-moz-selection {
+  /* Code for Firefox */
+  background: $green-accent;
+}
+
+::selection {
+  background: $green-accent;
+}
+
+// Scroll bar
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+  position: fixed;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: $green-accent;
+  border-radius: 8px;
+  padding-right: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $green-accent;
 }

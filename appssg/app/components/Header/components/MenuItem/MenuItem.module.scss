@@ -1,0 +1,11 @@
+@import "commonStyles/commonStyles.scss";
+.menuItem {
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: $bright-white-text;
+  font-weight: 700;
+}
+.menuItem:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 4px #00ee26);
+}

@@ -1,0 +1,171 @@
+@import "commonStyles/commonStyles.scss";
+.galleryComponentContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 139px;
+  width: 100%;
+  overflow: hidden;
+}
+.galleryComponentLeftSide {
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+  overflow: hidden;
+  position: relative;
+  left: -212px;
+}
+.galleryComponentTitle {
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: $green-accent;
+  min-width: 120px;
+  text-align: center;
+}
+.galleryComponentIcon {
+  padding: 0 8px;
+  max-height: 100px;
+}
+.galleryDescriptionItemsWrapper {
+  text-align: left;
+}
+.galleryDescriptionItem {
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: $gray-text;
+  margin-left: 16px;
+}
+.galleryDescriptionGreenPlus {
+  color: $green-accent;
+}
+.galleryComponentButtonWrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.galleryComponentSmallButton {
+  background-color: $green-accent;
+  border-radius: 25px;
+  color: $bright-white-text;
+  padding: 4px 12px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  min-width: 110px;
+}
+.galleryComponentBreakingLine {
+  border-radius: 8px;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(
+    0.25turn,
+    $background-sketches-color,
+    rgba(143, 84, 84, 1),
+    $background-sketches-color
+  );
+  border: none;
+}
+.galleryComponentBackgroundImage {
+  animation-fill-mode: both;
+  animation: slideInLeft;
+  animation-duration: 0.5s;
+  margin-right: 16px;
+}
+.galleryComponentOuterWrapper {
+  display: flex;
+}
+.galleryComponentContainer:hover {
+  cursor: pointer;
+  background-color: $light-green;
+  .galleryComponentLeftSide {
+    left: 0px;
+    transition: all 0.5s;
+  }
+}
+.galleryComponentMobileButton {
+  display: none;
+}
+@media (max-width: $xxl) {
+  .galleryComponentTitle {
+    font-size: 18px;
+    min-width: 90px;
+  }
+  .galleryDescriptionItem {
+    font-size: 12px;
+  }
+  .galleryComponentIcon {
+    scale: 0.8;
+    min-width: 17%;
+  }
+}
+@media (max-width: $xl) {
+  .galleryComponentBackgroundImage {
+    display: none;
+  }
+  .galleryComponentLeftSide {
+    left: 0;
+    margin-left: 16px;
+  }
+  .galleryComponentSmallButton {
+    font-size: 11px;
+    width: 55px;
+  }
+}
+@media (max-width: $md) {
+  .galleryComponentSmallButton {
+    display: none;
+  }
+  .galleryDescriptionItemsWrapper {
+    display: none;
+  }
+  .galleryComponentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .galleryComponentTitle {
+    font-size: 28px;
+    min-width: 100px;
+  }
+  .galleryComponentIcon {
+    min-width: 100px;
+  }
+  .galleryComponentLeftSide {
+    margin-left: 0px;
+  }
+  .galleryComponentMobileButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $green-accent;
+    border-radius: 25px;
+    color: $bright-white-text;
+    width: 70px;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-align: center;
+    margin-top: 12px;
+  }
+  .galleryComponentMobileButtonWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .galleryComponentContainer:hover {
+    background-color: initial !important;
+  }
+}
+@media (max-width: $sm) {
+  .galleryComponentTitle {
+    font-size: 20px;
+    min-width: 100px;
+  }
+}

@@ -1,0 +1,240 @@
+@import "commonStyles/commonStyles.scss";
+.footerWrapper {
+  background-color: white;
+  height: 350px;
+  max-width: 100%;
+  padding: 0 200px;
+  display: flex;
+}
+
+.contactUs {
+  font-size: 32px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: $gray-text;
+  margin-bottom: 16px;
+}
+.description {
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  color: $gray-text;
+  margin-bottom: 16px;
+}
+.contacts {
+  font-size: 40px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: $gray-text;
+  margin-bottom: 16px;
+  color: $green-accent;
+}
+.contactsBlack {
+  font-size: 40px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: $gray-text;
+  margin-bottom: 16px;
+}
+.madeByText {
+  font-size: 12px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: $gray-text;
+  margin-bottom: 16px;
+}
+
+.footerFirstPart {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footerSecondPart {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 40px;
+}
+.contactDetailItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.footerSecondPartAndOrganizer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.contactDetailItemText {
+  font-size: 24px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: $gray-text;
+}
+.contactDetailsWrapper {
+  margin-bottom: 16px;
+  text-align: start;
+}
+.authorSubtitle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+.madeByAuthor {
+  font-size: 10px;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+.madeByAuthorName {
+  font-size: 10px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: $green-accent;
+
+  /* unvisited link */
+  a:link {
+    color: $green-accent;
+  }
+
+  /* visited link */
+  a:visited {
+    color: $green-accent;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: $green-accent;
+  }
+
+  /* selected link */
+  a:active {
+    color: $green-accent;
+  }
+}
+.footerGreenSideBar {
+  width: 6px;
+  height: 45px;
+  margin-right: 24px;
+  background-color: $green-accent;
+}
+.breakingLine {
+  border-radius: 8px;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(
+    0.25turn,
+    $background-sketches-color,
+    rgba(143, 84, 84, 1),
+    $background-sketches-color
+  );
+  margin-top: 0px;
+  border: none;
+}
+.contact {
+  font-size: 32px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: $gray-text;
+  margin-bottom: 16px;
+  color: $green-accent;
+}
+.details {
+  font-size: 32px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: $gray-text;
+  margin-bottom: 16px;
+}
+.szuflandaVector {
+  margin-top: 40px;
+}
+@media (max-width: 1600px) {
+  .contactDetailItemText {
+    font-size: 20px;
+  }
+  .contacts {
+    font-size: 28px;
+  }
+  .contactsBlack {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1350px) {
+  .organizersVector {
+    height: 50%;
+  }
+  .contactDetailItemText {
+    font-size: 18px;
+  }
+}
+@media (max-width: $xl) {
+  .footerWrapper {
+    padding: 0 100px;
+  }
+  .szuflandaVector {
+    scale: 0.8;
+    margin-top: 16px;
+  }
+}
+@media (max-width: $lg) {
+  .footerWrapper {
+    padding: 0 50px;
+  }
+  .organizersVector {
+    display: none;
+  }
+}
+@media (max-width: $md) {
+  .footerWrapper {
+    padding: 0 24px;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+  }
+  .footerSecondPart {
+    width: 100%;
+    margin: 0;
+  }
+  .organizersVector {
+    display: inline;
+    height: 125px;
+  }
+  .footerFirstPartText {
+    display: none;
+  }
+  .footerSecondPartAndOrganizer {
+    margin-top: 40px;
+  }
+}
+@media (max-width: $sm) {
+  .organizersVector {
+    display: none;
+  }
+  .contactDetailItemText {
+    font-size: 16px;
+  }
+}
+@media (max-width: $xsm) {
+  .footerGreenSideBar {
+    display: none;
+  }
+  .footerSecondPartAndOrganizer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactDetailsWrapper {
+    text-align: center;
+  }
+  .contactDetailItem {
+    justify-content: center;
+  }
+}

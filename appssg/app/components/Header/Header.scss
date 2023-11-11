@@ -1,0 +1,47 @@
+@import "commonStyles/commonStyles.scss";
+.topHeaderItem {
+  max-width: 100%;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  min-height: 100px;
+  background-color: rgba(151, 151, 151, 24%);
+  padding: 0 $common-margin;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 50;
+  animation-fill-mode: unset;
+  animation: fadeInDown;
+  animation-duration: 1.5s;
+  position: fixed;
+  background-color: $green-accent;
+}
+.showTopHeader {
+  top: 0px;
+  transition: 1s;
+}
+.hideTopHeader {
+  top: -100px;
+  transition: 1s;
+}
+@media (max-width: $xl) {
+  .topHeaderItem {
+    padding: 0 100px;
+  }
+}
+@media (max-width: $lg) {
+  .topHeaderItem {
+    padding: 0 50px;
+  }
+}
+@media (max-width: $md) {
+  .topHeaderItem {
+    padding: 0 24px;
+  }
+}
+@media (max-width: 400px) {
+  .szuflandiaLogo {
+    max-width: 200px;
+  }
+}
