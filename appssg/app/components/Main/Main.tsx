@@ -1,3 +1,4 @@
+import ContactForm from "./components/ContactForm/ContactForm";
 import GalleryScreen from "./components/GalleryScreen/GalleryScreen";
 import InitialScreen from "./components/InitialScreen/InitialScreen";
 import PresentationScreen from "./components/PresentationScreen/PresentationScreen";
@@ -12,6 +13,7 @@ const Main = () => {
       <PresentationScreen />
       <GalleryScreen />
       <ShippingScreen />
+      <ContactForm />
     </main>
   );
 };

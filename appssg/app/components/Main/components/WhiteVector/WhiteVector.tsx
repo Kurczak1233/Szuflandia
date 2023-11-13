@@ -26,7 +26,7 @@ const WhiteVector = () => {
         style={{ width: `calc(${100 - bigComponentWidth - 10}% - 184px)` }}
       ></div>
       <Image src="/VectorMiddlePart.svg" alt="Movable hidding vector" width={184} height={104} priority></Image>
-      <div
+      <div  
         className={styles.whiteVectorSmallPart}
         style={{ width: `calc(${bigComponentWidth + 10}%)` }}
       ></div>

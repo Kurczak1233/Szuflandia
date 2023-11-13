@@ -1,0 +1,83 @@
+@import "commonStyles/commonStyles.scss";
+@mixin commoninput {
+  height: 66px;
+  color: #5b6674;
+  padding: 16px;
+  background: #f3f5f6;
+  border: none;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 6px 0;
+}
+.contactFormWrapper {
+  color: $black-text;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 200px;
+  margin-top: 64px;
+}
+.contactFormTitle {
+  color: $green-accent;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 32px;
+  font-family: "Open Sans";
+  margin-bottom: 64px;
+}
+.form {
+  width: 600px;
+  padding: 32px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .formTitle {
+    color: $black-text;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin-bottom: 32px;
+  }
+  .inputWide {
+    width: 100%;
+    @include commoninput;
+  }
+  .inputShort {
+    width: 50%;
+    @include commoninput;
+  }
+  .textareaWide {
+    width: 100%;
+    @include commoninput;
+    height: 200px;
+    resize: none;
+  }
+  .doubleInputsWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .inputShort:nth-child(1) {
+      margin-right: 6px;
+    }
+    .inputShort:nth-child(2) {
+      margin-left: 6px;
+    }
+  }
+  .submitButton {
+    height: 66px;
+    width: 100%;
+    background-color: $green-accent;
+    border: none;
+    margin-top: 8px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
