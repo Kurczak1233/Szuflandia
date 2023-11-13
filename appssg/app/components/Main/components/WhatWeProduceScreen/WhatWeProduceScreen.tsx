@@ -30,8 +30,6 @@ const WhatWeProduceScreen = () => {
         backgroundVector="/CabinetVector.svg"
         marginLeft="40px"
         mainMobileImage="/MobileCabinetsImage.webp"
-        backVectorWidth={224}
-        backVectorHeight={653}
       />
       <ProductsCategoryComponent
         categoryLogo="/TablesLogo.svg"
@@ -51,8 +49,6 @@ const WhatWeProduceScreen = () => {
         marginRight="40px"
         reversePositioning
         mainMobileImage="/MobileTablesImage.webp"
-        backVectorWidth={192}
-        backVectorHeight={653}
       />
       <ProductsCategoryComponent
         categoryLogo="/OrganizersIcon.svg"
@@ -71,8 +67,6 @@ const WhatWeProduceScreen = () => {
         backgroundVector="/OrganizersVector.svg"
         marginLeft="40px"
         mainMobileImage="/MobileOrganizersImage.webp"
-        backVectorWidth={146}
-        backVectorHeight={686}
       />
       <ProductsCategoryComponent
         categoryLogo="/ChestsLogo.svg"
@@ -92,8 +86,6 @@ const WhatWeProduceScreen = () => {
         marginRight="40px"
         reversePositioning
         mainMobileImage="/MobileChestsImage.webp"
-        backVectorWidth={192}
-        backVectorHeight={629}
       />
     </div>
   );

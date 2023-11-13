@@ -59,8 +59,8 @@ const InitialScreen = () => {
             className="initialScreenSzuflandiaLogo"
             width={151}
             height={164}
+            priority
           ></Image>
-          {/* <div>Button?</div> */}
         </div>
       </div>
       <Image
@@ -69,6 +69,7 @@ const InitialScreen = () => {
         alt="Szuflandia main background"
         height={1080}
         width={1920}
+        priority
       ></Image>
       <WhiteVector />
     </>

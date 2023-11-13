@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./ProductsCategoryComponent.module.scss";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 interface IProductsCategoryComponent {
   categoryLogo: string;
@@ -13,8 +13,6 @@ interface IProductsCategoryComponent {
   marginLeft?: string;
   marginRight?: string;
   reversePositioning?: boolean;
-  backVectorWidth: number;
-  backVectorHeight: number;
 }
 
 const ProductsCategoryComponent = ({
@@ -28,8 +26,6 @@ const ProductsCategoryComponent = ({
   marginLeft,
   marginRight,
   reversePositioning,
-  backVectorWidth,
-  backVectorHeight,
 }: IProductsCategoryComponent) => {
   const itemsButtons = () => {
     return categoriesButtons.map((item) => (
@@ -43,7 +39,7 @@ const ProductsCategoryComponent = ({
     <>
       <div className={styles.itemWrapper}>
         {reversePositioning && (
-          <Image
+          <img
             src={backgroundVector}
             className={styles.backgroundVector}
             style={{
@@ -51,10 +47,8 @@ const ProductsCategoryComponent = ({
               marginRight: marginRight,
               height: "100%",
             }}
-            width={backVectorWidth}
-            height={backVectorHeight}
             alt={`Background vector ${categoryTitle}`}
-          ></Image>
+          />
         )}
         <div className={styles.bordersWrapper}>
           <div className={styles.topHeightEmptySpace}></div>
@@ -96,7 +90,7 @@ const ProductsCategoryComponent = ({
           </div>
         </div>
         {!reversePositioning && (
-          <Image
+          <img
             src={backgroundVector}
             className={styles.backgroundVector}
             style={{
@@ -104,10 +98,8 @@ const ProductsCategoryComponent = ({
               marginRight: marginRight,
               height: "100%",
             }}
-            width={backVectorWidth}
-            height={backVectorHeight}
             alt={`Background vector ${categoryTitle}`}
-          ></Image>
+         />
         )}
       </div>
     </>

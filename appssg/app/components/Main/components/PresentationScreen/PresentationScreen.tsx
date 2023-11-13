@@ -2,18 +2,15 @@
 import { LanguageContext } from "page";
 import React from "react";
 import styles from "./PresentationScreen.module.scss";
-import Image from "next/image";
 
 const PresentationScreen = () => {
   const currentLanguageSheet = React.useContext(LanguageContext);
   return (
     <main className={styles.main}>
       <div className={styles.leftBranchWrapper}>
-        <Image
+        <img
           src="/RightBranch.svg"
           alt={"Right branch"}
-          width={712}
-          height={344}
         />
       </div>
       <section className={styles.presentetionScreen}>
@@ -56,11 +53,9 @@ const PresentationScreen = () => {
         </div>
       </section>
       <div className={styles.rightBranchWrapper}>
-        <Image
+        <img
           src="/LeftBranch.svg"
           alt={"Left branch"}
-          width={1081}
-          height={451}
         />
       </div>
     </main>
