@@ -176,7 +176,7 @@
 }
 @media (max-width: $sm) {
   .contactFormWrapper {
-    margin: 0px;
+    margin: 0 16px;
     margin-top: 64px;
   }
   .inputShort {
@@ -197,7 +197,6 @@
 }
 @media (max-width: 340px) {
   .contactFormWrapper {
-    margin: 0px;
     margin-top: 64px;
   }
   .form {
