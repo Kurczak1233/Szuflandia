@@ -1,78 +1,184 @@
 import styles from "./ContactForm.module.scss";
 import { useForm, SubmitHandler } from "react-hook-form";
 import ReCAPTCHA from "react-google-recaptcha";
-import React from "react";
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
+import Image from "next/image";
+import { LanguageContext } from "@/page";
 
 type Inputs = {
   contactName: string;
   email: string;
   contactPhone: string;
   description: string;
+  recaptchaInput: boolean;
 };
+const recaptchaRef = React.createRef<any>();
 
 const ContactForm = () => {
+  const currentLanguageSheet = React.useContext(LanguageContext);
+  console.log(LanguageContext);
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
+  const [submittedSuccessfully, setSubmittedSuccessfully] = useState<
+    boolean | null
+  >(null);
   const {
     register,
     handleSubmit,
-    watch,
+    setError,
     formState: { errors },
   } = useForm<Inputs>();
-  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data);
-  const recaptchaRef = React.createRef();
 
-  function onChange(value: any) {
-    console.log("Captcha value:", value);
+  const onSubmit: SubmitHandler<Inputs> = (data) => {
     //@ts-ignore
     const recaptchaValue = recaptchaRef.current.getValue();
-    console.log(recaptchaValue);
-  }
+    if (recaptchaValue) {
+      if (submittedSuccessfully === null) {
+        setIsSubmitting(true);
+        emailjs
+          .send(
+            "service_xs5ff1v",
+            "template_uup5yus",
+            {
+              contactName: data.contactName,
+              email: data.email,
+              contactPhone: data.contactPhone,
+              description: data.description,
+            },
+            "ypS5Pgln_V5cbUUTI"
+          )
+          .then(
+            (result) => {
+              console.log(result.text);
+              setIsSubmitting(false);
+              setSubmittedSuccessfully(true);
+            },
+            (error) => {
+              console.log(error.text);
+              setIsSubmitting(false);
+              setSubmittedSuccessfully(false);
+            }
+          );
+      }
+    } else {
+      setError("recaptchaInput", {
+        type: "manual",
+      });
+    }
+  };
 
   return (
     <div className={styles.contactFormWrapper}>
-      {/* <div className={styles.contactFormTitle}>Contact Form</div> */}
       <div className={styles.form}>
-        <div className={styles.formTitle}>Formularz kontaktowy</div>
-        <form onSubmit={handleSubmit(onSubmit)}>
-          {/* register your input into the hook by invoking the "register" function */}
+        <div className={styles.formTitle}>
+          {currentLanguageSheet.contactFormScreen.formTitle}
+        </div>
+        <form onSubmit={handleSubmit(onSubmit)} className={styles.inputsForm}>
           <input
-            placeholder="Twoje imię*"
-            {...register("contactName", { required: true })}
+            placeholder={
+              currentLanguageSheet.contactFormScreen.formNamePlaceholder
+            }
+            {...register("contactName", {
+              required: true,
+              maxLength: 30,
+            })}
             className={styles.inputWide}
           />
           <div className={styles.doubleInputsWrapper}>
             <input
-              placeholder="Email*"
-              {...register("email", { required: true })}
+              placeholder={
+                currentLanguageSheet.contactFormScreen.formEmailPlaceholder
+              }
+              {...register("email", {
+                required: true,
+                maxLength: 30,
+              })}
               className={styles.inputShort}
             />
             <input
-              placeholder="Telefon kontaktowy"
+              placeholder={
+                currentLanguageSheet.contactFormScreen.formPhonePlaceholder
+              }
               {...register("contactPhone")}
               className={styles.inputShort}
             />
           </div>
           <textarea
-            placeholder="Opisz Twoje zapytanie. Podaj numer produktu i kategorię w jakiej znajduje się mebel.*"
-            {...register("description", { required: true })}
+            placeholder={
+              currentLanguageSheet.contactFormScreen.formDescriptionPlaceholder
+            }
+            {...register("description", {
+              required: true,
+              maxLength: 1500,
+            })}
             className={styles.textareaWide}
           />
-          {/* errors will return when field validation fails  */}
-          {(errors.contactName || errors.email || errors.description) && (
-            <span>Wpisz poprawnie dane do formularza</span>
-          )}
           <ReCAPTCHA
-            sitekey="6LfGfA0pAAAAACvDBDqFRMLztKnQ5_0yvEqWSjxz"
-            onChange={onChange}
+            sitekey="6LdKjg0pAAAAAPOsDmnN8C8V2tfb1_zT1DYtZJdr"
+            ref={recaptchaRef}
+            lang={currentLanguageSheet.languageType === "PL" ? "pl" : "en-GB"}
           />
           <input
+            disabled={isSubmitting}
             type="submit"
             className={styles.submitButton}
-            value={"Wyślij"}
+            value={
+              submittedSuccessfully
+                ? currentLanguageSheet.contactFormScreen
+                    .formSentSuccessfullyPlaceholder
+                : submittedSuccessfully === false
+                ? currentLanguageSheet.contactFormScreen
+                    .formSentFailedPlaceholder
+                : submittedSuccessfully === null
+                ? currentLanguageSheet.contactFormScreen
+                    .formSendButtonPlaceholder
+                : ""
+            }
           />
-          <div>*Pole obowiazkowe</div>
+          <div className={styles.additionalInformation}>
+            {
+              currentLanguageSheet.contactFormScreen
+                .formAdditionalInfoPlaceholder
+            }
+          </div>
+          {(errors.contactName || errors.email || errors.description) && (
+            <div style={{ color: "red" }}>
+              {currentLanguageSheet.contactFormScreen.formDataErrorPlaceholder}
+            </div>
+          )}
+          {errors.recaptchaInput && (
+            <div style={{ color: "red" }}>
+              {currentLanguageSheet.contactFormScreen.formRecaptchaPlaceholder}
+            </div>
+          )}
         </form>
       </div>
-      <div>Description</div>
+      <div className={styles.descriptionPart}>
+        <div className={styles.descTitle}>
+          {currentLanguageSheet.contactFormScreen.descTitle}
+        </div>
+        <div className={styles.descSubTitle}>
+          {currentLanguageSheet.contactFormScreen.descSubtitle}
+        </div>
+        <div className={styles.descDescription}>
+          {currentLanguageSheet.contactFormScreen.descDescription}
+        </div>
+        <div className={styles.descLocation}>
+          {currentLanguageSheet.contactFormScreen.descLocalization}
+        </div>
+        <div className={styles.descLocationDetails}>
+          <Image
+            src="/LocalizationIcon.svg"
+            height={50}
+            width={50}
+            alt={"Localization icon"}
+            className={styles.localizationIcon}
+          />
+          <div>
+            {currentLanguageSheet.contactFormScreen.descLocalizationDetails}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

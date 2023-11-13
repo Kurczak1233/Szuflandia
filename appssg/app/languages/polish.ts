@@ -726,5 +726,24 @@ export const PolishLanguage: ICommonLanugageInterface = {
     detailsDesc: "Z racji na to iż każdy z naszych mebli jest wyjątkowy, w odpowiedzi prześlemy Ci informacje/zdjęcia z dokładnymi informacjami na temat elementu.",
     agreement: "Porozumienie",
     agreementDesc: "Po potwierdzeniu dalszego zainteresowania, wysyłamy mebel kurierem"
-  }
+  },
+  contactFormScreen: {
+    formTitle: "Formularz kontaktowy",
+    formNamePlaceholder: "Twoje imię*",
+    formEmailPlaceholder: "Email*",
+    formPhonePlaceholder: "Telefon komórkowy",
+    formDescriptionPlaceholder: "Opisz swoje zapytanie. Podaj numer produktu i kategorię w jakiej znajduje się mebel*",
+    formSendButtonPlaceholder: "Wyślij",
+    formAdditionalInfoPlaceholder: "*Pole obowiązkowe",
+    formDataErrorPlaceholder: "Wypełnij formularz przed wysłaniem",
+    formRecaptchaPlaceholder: "Potwierdź, że jesteś człowiekiem",
+    formSentSuccessfullyPlaceholder: "Formularz wysłany!",
+    formSentFailedPlaceholder: "Coś poszło nie tak",
+    descTitle: "SKONTAKTUJ SIĘ Z NAMI",
+    descSubtitle: "Dowiedz się więcej na temat naszych mebli.",
+    descDescription: "Przesyłając formularz będziesz w stanie dowiedzieć się więcej na temat parametrów mebli które Cie interesują. W odpowiedzi możesz oczekiwać zdjęć z pomiarami, ceny a także dodatkowych fotografii danego elementu. Z racji na to, że każdy mebel jest unikalny, mogą zdarzyć się drobne różnice w wymiarach.",
+    descLocalization: "Lokalizacja",
+    descLocalizationDetails: "Cięcina ul. Turystyczna 18"
+  },
+  languageType: "PL"
 };

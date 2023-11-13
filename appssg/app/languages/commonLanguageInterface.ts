@@ -5,7 +5,9 @@ export interface ICommonLanugageInterface {
   whatWeProduceScreen: ICommonLanguageProduction;
   galleryScreen: ICommonLanguageGallery;
   shippingScreen: ICommonLanguageShipping;
+  contactFormScreen: ICommonLanguageContactForm;
   footer: ICommonLanguageFooter;
+  languageType: string;
 }
 
 interface ICommonLanugageInterfaceHeader {
@@ -104,3 +106,23 @@ interface ICommonLanguageShipping {
   agreement: string;
   agreementDesc: string;
 }
+interface ICommonLanguageContactForm {
+  formTitle: string;
+  formNamePlaceholder: string;
+  formEmailPlaceholder: string;
+  formPhonePlaceholder: string;
+  formDescriptionPlaceholder: string;
+  formSendButtonPlaceholder: string;
+  formAdditionalInfoPlaceholder: string;
+  formDataErrorPlaceholder: string;
+  formRecaptchaPlaceholder: string;
+  formSentSuccessfullyPlaceholder: string;
+  formSentFailedPlaceholder: string;
+
+  descTitle: string;
+  descSubtitle: string;
+  descDescription: string;
+  descLocalization: string;
+  descLocalizationDetails: string;
+}
+

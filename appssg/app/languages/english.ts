@@ -726,5 +726,24 @@ export const EnglishLanguage: ICommonLanugageInterface = {
     detailsDesc: "Due to the fact that each of our furniture is unique, we will send you information/photos with detailed information about the item in response.",
     agreement: "Agreement",
     agreementDesc: "After confirming further interest, we will send the furniture by courier."
-  }
+  },
+  contactFormScreen: {
+    formTitle: "Contact Form",
+    formNamePlaceholder: "Your Name*",
+    formEmailPlaceholder: "Email*",
+    formPhonePlaceholder: "Mobile phone",
+    formDescriptionPlaceholder: "Describe your request. Enter the product number and the category the furniture is in*",
+    formSendButtonPlaceholder: "Send",
+    formAdditionalInfoPlaceholder: "*Mandatory field",
+    formDataErrorPlaceholder: "Fill out the form before submitting",
+    formRecaptchaPlaceholder: "Confirm that you are human",
+    formSentSuccessfullyPlaceholder: "Form submitted!",
+    formSentFailedPlaceholder: "Something went wrong",
+    descTitle: "CONTACT US",
+    descSubtitle: "Learn more about our furniture",
+    descDescription: "By submitting the form you will be able to learn more about the parameters of the furniture you are interested in. In response you can expect photos with measurements, price and also additional photos of the item. Due to the fact that each piece of furniture is unique, minor differences in dimensions may occur.",
+    descLocalization: "Location",
+    descLocalizationDetails: "Cięcina Turystyczna 18"
+  },
+  languageType: "EN"
 };

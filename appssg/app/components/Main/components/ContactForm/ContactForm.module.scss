@@ -18,7 +18,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 200px;
-  margin-top: 64px;
+  margin-top: 128px;
 }
 .contactFormTitle {
   color: $green-accent;
@@ -79,5 +79,128 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
+  }
+  .submitButton:disabled {
+    background-color: #5b6674;
+  }
+  .additionalInformation {
+    width: 100%;
+    color: #5b6674;
+    font-family: Poppins;
+    text-align: left;
+  }
+}
+.descriptionPart {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 32px;
+  .descTitle {
+    color: $black-text;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+  }
+  .descSubTitle {
+    color: $black-text;
+    font-family: Poppins;
+    font-size: 48px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    margin: 24px 0;
+    line-height: 56px;
+  }
+  .descDescription {
+    color: $black-text;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 12px 0;
+    line-height: 28.08px;
+  }
+  .descLocation {
+    color: $black-text;
+    font-family: Poppins;
+    text-align: left;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+  }
+  .descLocationDetails {
+    display: flex;
+    align-items: center;
+    color: $black-text;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+  }
+  .localizationIcon {
+    margin-right: 16px;
+  }
+}
+@media (max-width: $xl) {
+  .contactFormWrapper {
+    flex-direction: column-reverse;
+    margin: 0 100px;
+  }
+  .descriptionPart {
+    width: 100%;
+    margin: 32px 0;
+  }
+  .form {
+    width: 100%;
+  }
+}
+@media (max-width: $lg) {
+  .contactFormWrapper {
+    margin: 0 50px;
+    margin-top: 64px;
+  }
+}
+@media (max-width: $md) {
+  .contactFormWrapper {
+    margin: 0 24px;
+    margin-top: 64px;
+  }
+}
+@media (max-width: $sm) {
+  .contactFormWrapper {
+    margin: 0px;
+    margin-top: 64px;
+  }
+  .inputShort {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .doubleInputsWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .form {
+    padding: 16px;
+  }
+  .inputsForm {
+    width: 100%;
+  }
+}
+@media (max-width: 340px) {
+  .contactFormWrapper {
+    margin: 0px;
+    margin-top: 64px;
+  }
+  .form {
+    padding: 0px;
   }
 }
