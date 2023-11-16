@@ -69,7 +69,7 @@ const GalleryFurnitureItem = ({ item, index }: IGalleryFurnitureInterface) => {
           src="/GalleryItemGreenVector.svg"
           alt={`Gallery image green vector ${item.title} ${item.sizing}`}
           width={370}
-          height={47}
+          height={48}
           className="galleryFurnitureItemVector"
         />
         <div className="galleryFurnitureItemWrapper">

@@ -89,7 +89,7 @@
   }
   .galleryFurnitureItemVector {
     position: relative;
-    top: -24px;
+    top: -36px;
   }
 }
 @media (max-width: $md) {
@@ -98,6 +98,6 @@
   }
   .galleryBigPicture {
     max-width: 100vw;
-    max-height: 100vh;
+    height: auto;
   }
 }
