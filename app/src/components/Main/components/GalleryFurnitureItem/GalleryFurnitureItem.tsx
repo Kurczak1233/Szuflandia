@@ -21,7 +21,6 @@ const GalleryFurnitureItem = ({ item, index }: IGalleryFurnitureInterface) => {
     setIsModalOpen(true);
     setCurrentPicture(itemPicture);
   };
-
   useEffect(() => {
     document.body.style.overflow = isModalOpen ? "hidden" : "unset";
   }, [isModalOpen]);
