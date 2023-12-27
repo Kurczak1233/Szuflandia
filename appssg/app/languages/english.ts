@@ -736,7 +736,7 @@ export const EnglishLanguage: ICommonLanugageInterface = {
     formSendButtonPlaceholder: "Send",
     formAdditionalInfoPlaceholder: "*Mandatory field",
     formDataErrorPlaceholder: "Fill out the form before submitting",
-    formRecaptchaPlaceholder: "Confirm that you are human",
+    formRecaptchaPlaceholder: "Confirm that you are a human",
     formSentSuccessfullyPlaceholder: "Form submitted!",
     formSentFailedPlaceholder: "Something went wrong",
     descTitle: "CONTACT US",
