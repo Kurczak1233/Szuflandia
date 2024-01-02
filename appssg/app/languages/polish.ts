@@ -33,7 +33,8 @@ export const PolishLanguage: ICommonLanugageInterface = {
     detailsContact: "Dane ",
     detailsDetails: "kontaktowe:",
     author: "Michała Kupczaka ",
-    authorSite: "michalkupczak.com"
+    authorSite: "michalkupczak.com",
+    temporary: "Działalność tymczasowo zawieszona 2024.01.01"
   },
   whatWeProduceScreen: {
     cabinetsItem: {

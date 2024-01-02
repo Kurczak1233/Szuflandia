@@ -48,6 +48,7 @@ interface ICommonLanguageFooter {
   detailsDetails: string;
   author: string;
   authorSite: string;
+  temporary: string;
 }
 
 interface ICommonLanguageProduction {

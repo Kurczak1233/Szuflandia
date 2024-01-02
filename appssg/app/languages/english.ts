@@ -9,7 +9,8 @@ export const EnglishLanguage: ICommonLanugageInterface = {
   mainScreen: {
     topText: "Welcome to",
     szuflandiaTitle: "Szuflandia",
-    siteDescription: "In this workshop, one craftsman creates handmade furniture with attention to detail.",
+    siteDescription:
+      "In this workshop, one craftsman creates handmade furniture with attention to detail.",
     attributes: {
       madeByHand: "Handmade",
       howManyProducts: "+200 products",
@@ -20,8 +21,10 @@ export const EnglishLanguage: ICommonLanugageInterface = {
   presentationScreen: {
     uniqueFurniture: "Uniquely",
     uniqueFurnitureSecondPart: "designed",
-    description: "Our furniture is distinguished by the fact that each piece is individually inspired, made with incredible care, providing distinctive and exclusive creations.",
-    descriptionSecondPart: "Handmade creation and the use of a variety of materials ensure that each piece of furniture is unique",
+    description:
+      "Our furniture is distinguished by the fact that each piece is individually inspired, made with incredible care, providing distinctive and exclusive creations.",
+    descriptionSecondPart:
+      "Handmade creation and the use of a variety of materials ensure that each piece of furniture is unique",
   },
   footer: {
     contact: "Contact",
@@ -34,26 +37,31 @@ export const EnglishLanguage: ICommonLanugageInterface = {
     detailsDetails: "details:",
     author: "Michał Kupczak ",
     authorSite: "michalkupczak.com",
+    temporary: "Activity provisionally suspended 2024.01.01",
   },
   whatWeProduceScreen: {
     cabinetsItem: {
       categoryTitle: "Cabinets",
-      categoryDescription: "Discover our collection of small cabinets, thoughtfully designed with various sizes and unique features. These charming pieces are perfect for decorating while providing storage options both on top and inside, making them versatile and practical for any space.",
+      categoryDescription:
+        "Discover our collection of small cabinets, thoughtfully designed with various sizes and unique features. These charming pieces are perfect for decorating while providing storage options both on top and inside, making them versatile and practical for any space.",
       categoryTraitsButtons: ["Practical", "Decorative"],
     },
     tablesItem: {
       categoryTitle: "Tables",
-      categoryDescription: "Introducing our tables, created with both style and functionality in mind. Available in a variety of sizes, they are designed to enhance any space while serving a versatile purpose for your convenience.",
+      categoryDescription:
+        "Introducing our tables, created with both style and functionality in mind. Available in a variety of sizes, they are designed to enhance any space while serving a versatile purpose for your convenience.",
       categoryTraitsButtons: ["Versatile", "Elegance"],
     },
     organizersItem: {
       categoryTitle: "Organizers",
-      categoryDescription: "Discover our collection of decorative organizers, blending aesthetics with functionality. Featuring drawers or open spaces, they efficiently store essentials to keep your space tidy. Produced in various unique variations, each piece stands as a testament to exquisite craftsmanship, catering to your distinct preferences.",
+      categoryDescription:
+        "Discover our collection of decorative organizers, blending aesthetics with functionality. Featuring drawers or open spaces, they efficiently store essentials to keep your space tidy. Produced in various unique variations, each piece stands as a testament to exquisite craftsmanship, catering to your distinct preferences.",
       categoryTraitsButtons: ["Artful", "Capacious"],
     },
     chestsItem: {
       categoryTitle: "Chests",
-      categoryDescription: "Small, innovative chests - organizers reimagined. Brilliantly designed with a fresh approach, perfect for storing and sorting small items efficiently. Choose from various sizes to find the perfect fit for your space.",
+      categoryDescription:
+        "Small, innovative chests - organizers reimagined. Brilliantly designed with a fresh approach, perfect for storing and sorting small items efficiently. Choose from various sizes to find the perfect fit for your space.",
       categoryTraitsButtons: ["Classical", "Creative"],
     },
     furnitureGreen: "Furniture",
@@ -63,8 +71,10 @@ export const EnglishLanguage: ICommonLanugageInterface = {
     galleryTitle: "Gallery",
     descriptionBlackPart: "Most of the items shown below are currently",
     availableGreenPart: "available.",
-    furtherDescriptionFirstSentence: "To order one of the items below, or a similar one - contact us.",
-    furtherDescriptionSecondSentence: "We are open to your creativity and ideas.",
+    furtherDescriptionFirstSentence:
+      "To order one of the items below, or a similar one - contact us.",
+    furtherDescriptionSecondSentence:
+      "We are open to your creativity and ideas.",
     galleryItems: [
       {
         title: "Cabinets",
@@ -721,18 +731,22 @@ export const EnglishLanguage: ICommonLanugageInterface = {
   shippingScreen: {
     shippingTitle: "Delivery",
     contact: "Making contact",
-    contactDesc: "When you express interest in our product, please contact us using the forum form or infromation given at the bottom of the page.",
+    contactDesc:
+      "When you express interest in our product, please contact us using the forum form or infromation given at the bottom of the page.",
     details: "Details",
-    detailsDesc: "Due to the fact that each of our furniture is unique, we will send you information/photos with detailed information about the item in response.",
+    detailsDesc:
+      "Due to the fact that each of our furniture is unique, we will send you information/photos with detailed information about the item in response.",
     agreement: "Agreement",
-    agreementDesc: "After confirming further interest, we will send the furniture by courier."
+    agreementDesc:
+      "After confirming further interest, we will send the furniture by courier.",
   },
   contactFormScreen: {
     formTitle: "Contact Form",
     formNamePlaceholder: "Your Name*",
     formEmailPlaceholder: "Email*",
     formPhonePlaceholder: "Mobile phone",
-    formDescriptionPlaceholder: "Describe your request. Enter the product number and the category the furniture is in*",
+    formDescriptionPlaceholder:
+      "Describe your request. Enter the product number and the category the furniture is in*",
     formSendButtonPlaceholder: "Send",
     formAdditionalInfoPlaceholder: "*Mandatory field",
     formDataErrorPlaceholder: "Fill out the form before submitting",
@@ -741,9 +755,10 @@ export const EnglishLanguage: ICommonLanugageInterface = {
     formSentFailedPlaceholder: "Something went wrong",
     descTitle: "CONTACT US",
     descSubtitle: "Learn more about our furniture",
-    descDescription: "By submitting the form you will be able to learn more about the parameters of the furniture you are interested in. In response you can expect photos with measurements, price and also additional photos of the item. Due to the fact that each piece of furniture is unique, minor differences in dimensions may occur.",
+    descDescription:
+      "By submitting the form you will be able to learn more about the parameters of the furniture you are interested in. In response you can expect photos with measurements, price and also additional photos of the item. Due to the fact that each piece of furniture is unique, minor differences in dimensions may occur.",
     descLocalization: "Location",
-    descLocalizationDetails: "Cięcina Turystyczna 18"
+    descLocalizationDetails: "Cięcina Turystyczna 18",
   },
-  languageType: "EN"
+  languageType: "EN",
 };

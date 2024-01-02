@@ -31,6 +31,9 @@ const Footer = () => {
         <div className={styles.footerSecondPart}>
           <div className={styles.footerSecondPartAndOrganizer}>
             <div>
+              <div className={styles.temporaryText}>
+                {currentLanguageSheet.footer.temporary}
+              </div>
               <div className={styles.contactDetailsWrapper}>
                 <span className={styles.contact}>
                   {currentLanguageSheet.footer.detailsContact}
