@@ -77,11 +77,9 @@ const Footer = () => {
               {currentLanguageSheet.footer.madeBy}&nbsp;
             </span>
             <span className={styles.madeByAuthorName}>
-              {currentLanguageSheet.footer.author}(
-              <a className={styles.link} href="https://michalkupczak.com/">
-                {currentLanguageSheet.footer.authorSite}
+              <a className={styles.catchyFlow} href="https://catchyflow.com/">
+                CatchyFlow
               </a>
-              )
             </span>
           </div>
         </div>

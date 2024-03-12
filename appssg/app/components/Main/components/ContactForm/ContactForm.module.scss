@@ -12,6 +12,12 @@
   line-height: normal;
   margin: 6px 0;
 }
+.contactFormInnerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1920px;
+}
 .contactFormWrapper {
   color: $black-text;
   display: flex;
@@ -154,12 +160,15 @@
     flex-direction: column-reverse;
     margin: 0 100px;
   }
+  .contactFormInnerWrapper {
+    flex-direction: column-reverse;
+  }
+  .form {
+    width: auto;
+  }
   .descriptionPart {
     width: 100%;
     margin: 32px 0;
-  }
-  .form {
-    width: 100%;
   }
 }
 @media (max-width: $lg) {

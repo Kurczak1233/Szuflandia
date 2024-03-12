@@ -69,113 +69,122 @@ const ContactForm = () => {
 
   return (
     <div className={styles.contactFormWrapper}>
-      <div className={styles.form}>
-        <div className={styles.formTitle}>
-          {currentLanguageSheet.contactFormScreen.formTitle}
-        </div>
-        <form onSubmit={handleSubmit(onSubmit)} className={styles.inputsForm}>
-          <input
-            placeholder={
-              currentLanguageSheet.contactFormScreen.formNamePlaceholder
-            }
-            {...register("contactName", {
-              required: true,
-              maxLength: 30,
-            })}
-            className={styles.inputWide}
-          />
-          <div className={styles.doubleInputsWrapper}>
+      <div className={styles.contactFormInnerWrapper}>
+        <div className={styles.form}>
+          <div className={styles.formTitle}>
+            {currentLanguageSheet.contactFormScreen.formTitle}
+          </div>
+          <form onSubmit={handleSubmit(onSubmit)} className={styles.inputsForm}>
             <input
               placeholder={
-                currentLanguageSheet.contactFormScreen.formEmailPlaceholder
+                currentLanguageSheet.contactFormScreen.formNamePlaceholder
               }
-              {...register("email", {
+              {...register("contactName", {
                 required: true,
                 maxLength: 30,
               })}
-              className={styles.inputShort}
+              className={styles.inputWide}
+            />
+            <div className={styles.doubleInputsWrapper}>
+              <input
+                placeholder={
+                  currentLanguageSheet.contactFormScreen.formEmailPlaceholder
+                }
+                {...register("email", {
+                  required: true,
+                  maxLength: 30,
+                })}
+                className={styles.inputShort}
+              />
+              <input
+                placeholder={
+                  currentLanguageSheet.contactFormScreen.formPhonePlaceholder
+                }
+                {...register("contactPhone")}
+                className={styles.inputShort}
+              />
+            </div>
+            <textarea
+              placeholder={
+                currentLanguageSheet.contactFormScreen
+                  .formDescriptionPlaceholder
+              }
+              {...register("description", {
+                required: true,
+                maxLength: 1500,
+              })}
+              className={styles.textareaWide}
+            />
+            <ReCAPTCHA
+              sitekey="6LdKjg0pAAAAAPOsDmnN8C8V2tfb1_zT1DYtZJdr"
+              ref={recaptchaRef}
+              lang={currentLanguageSheet.languageType === "PL" ? "pl" : "en-GB"}
             />
             <input
-              placeholder={
-                currentLanguageSheet.contactFormScreen.formPhonePlaceholder
+              disabled={isSubmitting}
+              type="submit"
+              className={styles.submitButton}
+              value={
+                submittedSuccessfully
+                  ? currentLanguageSheet.contactFormScreen
+                      .formSentSuccessfullyPlaceholder
+                  : submittedSuccessfully === false
+                  ? currentLanguageSheet.contactFormScreen
+                      .formSentFailedPlaceholder
+                  : submittedSuccessfully === null
+                  ? currentLanguageSheet.contactFormScreen
+                      .formSendButtonPlaceholder
+                  : ""
               }
-              {...register("contactPhone")}
-              className={styles.inputShort}
             />
-          </div>
-          <textarea
-            placeholder={
-              currentLanguageSheet.contactFormScreen.formDescriptionPlaceholder
-            }
-            {...register("description", {
-              required: true,
-              maxLength: 1500,
-            })}
-            className={styles.textareaWide}
-          />
-          <ReCAPTCHA
-            sitekey="6LdKjg0pAAAAAPOsDmnN8C8V2tfb1_zT1DYtZJdr"
-            ref={recaptchaRef}
-            lang={currentLanguageSheet.languageType === "PL" ? "pl" : "en-GB"}
-          />
-          <input
-            disabled={isSubmitting}
-            type="submit"
-            className={styles.submitButton}
-            value={
-              submittedSuccessfully
-                ? currentLanguageSheet.contactFormScreen
-                    .formSentSuccessfullyPlaceholder
-                : submittedSuccessfully === false
-                ? currentLanguageSheet.contactFormScreen
-                    .formSentFailedPlaceholder
-                : submittedSuccessfully === null
-                ? currentLanguageSheet.contactFormScreen
-                    .formSendButtonPlaceholder
-                : ""
-            }
-          />
-          <div className={styles.additionalInformation}>
-            {
-              currentLanguageSheet.contactFormScreen
-                .formAdditionalInfoPlaceholder
-            }
-          </div>
-          {(errors.contactName || errors.email || errors.description) && (
-            <div style={{ color: "red" }}>
-              {currentLanguageSheet.contactFormScreen.formDataErrorPlaceholder}
+            <div className={styles.additionalInformation}>
+              {
+                currentLanguageSheet.contactFormScreen
+                  .formAdditionalInfoPlaceholder
+              }
             </div>
-          )}
-          {errors.recaptchaInput && (
-            <div style={{ color: "red" }}>
-              {currentLanguageSheet.contactFormScreen.formRecaptchaPlaceholder}
+            {(errors.contactName || errors.email || errors.description) && (
+              <div style={{ color: "red" }}>
+                {
+                  currentLanguageSheet.contactFormScreen
+                    .formDataErrorPlaceholder
+                }
+              </div>
+            )}
+            {errors.recaptchaInput && (
+              <div style={{ color: "red" }}>
+                {
+                  currentLanguageSheet.contactFormScreen
+                    .formRecaptchaPlaceholder
+                }
+              </div>
+            )}
+          </form>
+        </div>
+        <div className={styles.descriptionPart}>
+          <div className={styles.descTitle}>
+            {currentLanguageSheet.contactFormScreen.descTitle}
+          </div>
+          <div className={styles.descSubTitle}>
+            {currentLanguageSheet.contactFormScreen.descSubtitle}
+          </div>
+          <div className={styles.descDescription}>
+            {currentLanguageSheet.contactFormScreen.descDescription}
+          </div>
+          <div className={styles.descLocation}>
+            {currentLanguageSheet.contactFormScreen.descLocalization}
+          </div>
+          <div className={styles.descLocationDetails}>
+            <Image
+              src="/LocalizationIcon.svg"
+              height={50}
+              width={50}
+              alt={"Localization icon"}
+              className={styles.localizationIcon}
+            />
+            <div>
+              {currentLanguageSheet.contactFormScreen.descLocalizationDetails}
             </div>
-          )}
-        </form>
-      </div>
-      <div className={styles.descriptionPart}>
-        <div className={styles.descTitle}>
-          {currentLanguageSheet.contactFormScreen.descTitle}
-        </div>
-        <div className={styles.descSubTitle}>
-          {currentLanguageSheet.contactFormScreen.descSubtitle}
-        </div>
-        <div className={styles.descDescription}>
-          {currentLanguageSheet.contactFormScreen.descDescription}
-        </div>
-        <div className={styles.descLocation}>
-          {currentLanguageSheet.contactFormScreen.descLocalization}
-        </div>
-        <div className={styles.descLocationDetails}>
-          <Image
-            src="/LocalizationIcon.svg"
-            height={50}
-            width={50}
-            alt={"Localization icon"}
-            className={styles.localizationIcon}
-          />
-          <div>
-            {currentLanguageSheet.contactFormScreen.descLocalizationDetails}
           </div>
         </div>
       </div>

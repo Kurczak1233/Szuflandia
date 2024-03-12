@@ -8,7 +8,7 @@
   padding: 0 $common-margin;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   position: absolute;
   z-index: 50;
   animation-fill-mode: unset;
@@ -20,6 +20,13 @@
 .showTopHeader {
   top: 0px;
   transition: 1s;
+}
+.topHeaderInnerWrapper {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .hideTopHeader {
   top: -100px;

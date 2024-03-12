@@ -16,7 +16,14 @@
   margin: 0;
   text-align: left;
 }
-
+.catchyFlow {
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(0deg, #2bc6d0 30.45%, #8f00ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  cursor: pointer;
+  font-weight: 700;
+}
 .contactUs {
   font-size: 32px;
   font-family: "Open Sans";

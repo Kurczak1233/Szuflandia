@@ -2,7 +2,7 @@ import "./Header.scss";
 import MenuSelection from "./components/MenuSelection/MenuSelection";
 import { LanguageEnum } from "page";
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image"
+import Image from "next/image";
 
 interface IHeader {
   setLanguageToChosenOption: (option: LanguageEnum) => void;
@@ -36,8 +36,19 @@ const Header = ({ setLanguageToChosenOption }: IHeader) => {
       } topHeaderItem`}
       ref={navigationRef}
     >
-      <Image src="/Logo.svg" alt="Szuflandia logo" className="szuflandiaLogo" width={256} height={62} />
-      <MenuSelection setLanguageToChosenOption={setLanguageToChosenOption} headerVisible={headerVisible} />
+      <div className="topHeaderInnerWrapper">
+        <Image
+          src="/Logo.svg"
+          alt="Szuflandia logo"
+          className="szuflandiaLogo"
+          width={256}
+          height={62}
+        />
+        <MenuSelection
+          setLanguageToChosenOption={setLanguageToChosenOption}
+          headerVisible={headerVisible}
+        />
+      </div>
     </div>
   );
 };
